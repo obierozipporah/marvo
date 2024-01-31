@@ -1,0 +1,125 @@
+@media screen and (max-width: 767px) {
+    .header {
+        height: 80px;
+        background-color: #000;
+        color: #fff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 80px;
+    }
+
+    .burgerMenu {
+        height: 20px;
+        width: 20px;
+
+        display: block;
+    }
+
+    .cart {
+        height: 20px;
+        width: 23px;
+    }
+
+    .links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        height: 80px;
+        background-color: #000;
+        color: #fff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 300px;
+    }
+
+    .headerContent h1 {
+        margin-left: -250px;
+    }
+
+    .burgerMenu {
+        height: 20px;
+        width: 23px;
+        margin-left: 30px;
+    }
+
+    .cart {
+        height: 20px;
+        width: 23px;
+        margin-right: 30px;
+    }
+
+    .links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        height: 100px;
+        background-color: #000;
+        color: #fff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerContent {
+        width: 1440px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        gap: 35px;
+        order: 2;
+    }
+
+    .links a {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .links a:hover {
+        color: #D87D4A;
+    }
+
+    h1 {
+        order: 1;
+    }
+
+    .cart {
+        order: 3;
+        width: 24px;
+        height: 20px;
+    }
+
+    .burgerMenu {
+        display: none;
+    }
+}
