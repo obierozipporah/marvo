@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+    .zx7Wrapper {
+        margin: 0 auto;
+        width: 85%;
+        height: 350px;
+        margin-top: 50px;
+        border-radius: 8px;
+
+        background-image: url("../../../resources/assets/home/mobile/image-speaker-zx7.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        position: relative;
+    }
+
+    .zx7Content {
+        width: 210px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .zx7Content h2 {
+        font-style: normal;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+    .zx7Btn button {
+        padding: 10px 20px;
+        border: 1px solid #000;
+        background: transparent;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
