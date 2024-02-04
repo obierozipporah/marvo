@@ -51,7 +51,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .yx1Wrapper {
-        /* border: 1px solid red; */
         margin: 0 auto;
         width: 90%;
         height: 300px;
@@ -107,5 +106,62 @@
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .yx1Wrapper {
+        margin: 0 auto;
+        width: 75%;
+        height: 400px;
+        margin-top: 50px;
+
+        display: flex;
+        gap: 25px;
+    }
+
+    .yx1Img {
+        height: 100%;
+        width: 50%;
+        background-image: url("../../../resources/assets/home/desktop/image-earphones-yx1.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+    .yx1Content {
+        border-radius: 8px;
+        height: 100%;
+        width: 50%;
+        background: #F1F1F1;
+        position: relative;
+    }
+
+    .yx1Content h2 {
+        width: 300px;
+        position: absolute;
+        top: 25%;
+        left: 8%;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+    }
+
+    .yx1Btn button {
+        position: absolute;
+        top: 40%;
+        left: 8%;
+        border: 1px solid #000;
+        padding: 15px 30px;
+        background: transparent;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    .yx1Btn button:hover {
+        background-color: #000;
+        color: #fff;
+    }
 }
