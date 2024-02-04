@@ -170,7 +170,11 @@
         font-size: 15px;
     }
 
+    .heroBtn {
+        cursor: pointer;
+    }
+
     .heroBtn:hover {
-        background: #D87D4A;
+        background: #FBAF85;
     }
 }
