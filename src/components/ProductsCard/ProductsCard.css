@@ -16,7 +16,7 @@
         align-items: center;
         background-color: #F1F1F1;
         height: 165px;
-        border-radius: 5px;
+        border-radius: 8px;
         position: relative;
     }
 
@@ -77,7 +77,77 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    
+    .cardWrapper {
+        margin: 0 auto;
+        display: flex;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .headphonesCard,
+    .speakersCard,
+    .earphonesCard {
+        width: 380px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F1F1F1;
+        border-radius: 8px;
+        position: relative;
+        margin: 8px;
+    }
+
+    .headphonesCard img {
+        width: 200px;
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .headphonesCard h3,
+    .speakersCard h3,
+    .earphonesCard h3 {
+        margin: 0 auto;
+        margin-top: 100px;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1.071px;
+        width: 180px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .headphonesCard h4,
+    .speakersCard h4,
+    .earphonesCard h4 {
+        margin: 0 auto;
+        width: 100px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight: 700;
+        opacity: 0.5;
+
+    }
+
+    .speakersCard img {
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .earphonesCard img {
+        width: 180px;
+        position: absolute;
+        top: 4%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
 }
 
 @media screen and (min-width: 1024px) {
