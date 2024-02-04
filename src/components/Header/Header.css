@@ -46,6 +46,7 @@
     }
 
     .headerContent {
+        width: 90%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -53,19 +54,17 @@
     }
 
     .headerContent h1 {
-        margin-left: -250px;
+        margin-left: -350px;
     }
 
     .burgerMenu {
-        height: 20px;
-        width: 23px;
-        margin-left: 30px;
+        height: 25px;
+        width: 25px;
     }
 
     .cart {
-        height: 20px;
-        width: 23px;
-        margin-right: 30px;
+        height: 25px;
+        width: 25px;
     }
 
     .links {
