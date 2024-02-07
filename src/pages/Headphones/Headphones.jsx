@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import "./Headphones.css"
 import data from "../../../resources/data.json"
 import { Link } from 'react-router-dom'
+import ProductsCard from "../../components/ProductsCard/ProductsCard"
+import BestAudio from "../../components/BestAudio/BestAudio"
 
 const Headphones = () => {
 
@@ -38,13 +40,18 @@ const Headphones = () => {
     ))
 
     return (
-        <section className='productPageWrapper'>
-            <div className='productHeading'>
-                <h1>HEADPHONES</h1>
-            </div>
-            <div className='headphoneWrapper'>          {headphones}
-            </div>
-        </section>
+        <div>
+            <section className='productPageWrapper'>
+                <div className='productHeading'>
+                    <h1>HEADPHONES</h1>
+                </div>
+                <div className='headphoneWrapper'>
+                    {headphones}
+                </div>
+            </section>
+            <ProductsCard />
+            <BestAudio />
+        </div>
     )
 }
 
