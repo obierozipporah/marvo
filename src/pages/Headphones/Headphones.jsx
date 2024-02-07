@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "./Headphones.css"
 import data from "../../../resources/data.json"
 import { Link } from 'react-router-dom'
 
@@ -7,25 +8,32 @@ const Headphones = () => {
     // Filter to get all the headphones data
     const headphonesData = data.filter(product => product.category === "headphones")
 
-    console.log(headphonesData);
+    const flippedHeadphoneData = [...headphonesData].reverse()
+
+    console.log(flippedHeadphoneData);
 
     /*
     * Map over the filtered headphones data.
     * The inline style will be used to dynamically
     * render the images based on viewport sizes.
     */ 
-    const headphones = headphonesData.map(headphone => (
-        <div key={headphone.id} className='headphoneWrapper'>
+    const headphones = flippedHeadphoneData.map(headphone => (
+        <div key={headphone.id} className='headphone'>
             <div 
                 className='headphoneImage' 
                 style={{backgroundImage: `url(${headphone.categoryImage.mobile})`}}
             />
-            <h1>
+            <h2>
                 {headphone.name.toUpperCase()}
-            </h1>
+            </h2>
             <p>
                 {headphone.description}
             </p>
+            <div className="headBtnDiv">
+                <Link>
+                    <button className='headBtn'>SEE PRODUCT</button>
+                </Link>
+            </div>
         </div>
     ))
 
@@ -34,7 +42,8 @@ const Headphones = () => {
             <div className='productHeading'>
                 <h1>HEADPHONES</h1>
             </div>
-            {headphones}
+            <div className='headphoneWrapper'>          {headphones}
+            </div>
         </section>
     )
 }
