@@ -1,12 +1,16 @@
 import React from 'react'
 import Header from '/src/components/Header/Header.jsx'
+import Footer from '../Footer/Footer'
 import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
   return (
     <div>
         <Header />
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
     </div>
   )
 }
