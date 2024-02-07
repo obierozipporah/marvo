@@ -10,13 +10,15 @@ const Footer = () => {
   return (
     <footer className='footerWrapper'>
         <div className="footerContent">
-            <img src={logo} alt='' className='logo'/>
-            <div className='footerLinks'>
-                {/* don't forget to add the "to" properties */}
-                <Link>HOME</Link>
-                <Link>HEADPHONES</Link>
-                <Link>SPEAKERS</Link>
-                <Link>EARPHONES</Link>
+            <div className="footerTop">
+                <img src={logo} alt='' className='logo'/>
+                <div className='footerLinks'>
+                    {/* don't forget to add the "to" properties */}
+                    <Link>HOME</Link>
+                    <Link>HEADPHONES</Link>
+                    <Link>SPEAKERS</Link>
+                    <Link>EARPHONES</Link>
+                </div>
             </div>
             <p className='footerPara'>
                 Audiophile is an all in one stop to fulfill your audio needs.
