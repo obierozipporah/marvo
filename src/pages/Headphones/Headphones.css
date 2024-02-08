@@ -176,5 +176,99 @@
 }
 
 @media screen and (min-width: 1024px) {
-    
+    .headphoneWrapper {
+        margin: 0 auto;
+        width: 75%;
+        margin-top: 120px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headphoneImage {
+        background-image: url("../../../resources/assets/product-xx59-headphones/desktop/image-category-page-preview.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #F1F1F1;
+        height: 560px;
+        width: 740px;
+        border-radius: 8px;
+    }
+
+    .headphone {
+        width: 100%;
+        display: flex;
+        gap: 100px;
+        margin-bottom: 100px;
+    }
+
+    .headphoneContent {
+        width: 50%;
+    }
+
+    .headphoneContent h2 {
+        margin-top: 100px;
+        width: 50%;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; 
+        letter-spacing: 1.4px;
+    }
+
+    .headphoneContent p {
+        margin-top: 25px;
+        width: 445px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.5; 
+    }
+
+    .headphone:nth-child(2) .headphoneContent{
+        order: 0;
+    }
+
+    .headphone:nth-child(2) .headphoneImage {
+        order: 1;
+    }
+
+    .productHeading {
+        background: #000;
+        color: #fff;
+        height: 120px;
+    }
+
+    .productHeading h1 {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+    }
+
+    .headBtn {
+        border: none;
+        padding: 20px 30px;
+        margin-top: 24px;
+        background: #D87D4A;
+        color: #fff;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+
+    .headBtn:hover {
+        background: #FBAF85;
+    }
 }
