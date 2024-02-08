@@ -126,13 +126,13 @@
         border: 1px solid #000;
         background-color: #000;
         color: #fff;
-        height: 360px;
+        height: 380px;
         position: relative;
     }
 
     .footerContent {
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 70px;
         width: 75%;
         height: 300px;
     }
