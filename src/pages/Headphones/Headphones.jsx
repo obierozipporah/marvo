@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import "./Headphones.css"
-import data from "../../../resources/data.json"
 import { Link } from 'react-router-dom'
 import ProductsCard from "../../components/ProductsCard/ProductsCard"
 import BestAudio from "../../components/BestAudio/BestAudio"
 
-const Headphones = () => {
+const Headphones = ( {data} ) => {
 
     // Filter to get all the headphones data
     const headphonesData = data.filter(product => product.category === "headphones")

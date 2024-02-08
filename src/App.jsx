@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import Home from './components/Home/Home'
 import Headphones from './pages/Headphones/Headphones'
+import data from "../resources/data.json"
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path='/' element={<Home />}/>
-          <Route path='headphones' element={<Headphones />}/>
+          <Route path='headphones' element={<Headphones data={data}/>}/>
         </Route>
       </Routes>
     </div>
