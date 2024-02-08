@@ -10,6 +10,10 @@ const Headphones = () => {
     // Filter to get all the headphones data
     const headphonesData = data.filter(product => product.category === "headphones")
 
+    /*
+    * Flip the headphone data to get
+    * the the first object to come first
+    */
     const flippedHeadphoneData = [...headphonesData].reverse()
 
     console.log(flippedHeadphoneData);
@@ -25,16 +29,18 @@ const Headphones = () => {
                 className='headphoneImage' 
                 style={{backgroundImage: `url(${headphone.categoryImage.mobile})`}}
             />
-            <h2>
-                {headphone.name.toUpperCase()}
-            </h2>
-            <p>
-                {headphone.description}
-            </p>
-            <div className="headBtnDiv">
-                <Link>
-                    <button className='headBtn'>SEE PRODUCT</button>
-                </Link>
+            <div className="headphoneContent">
+                <h2>
+                    {headphone.name.toUpperCase()}
+                </h2>
+                <p>
+                    {headphone.description}
+                </p>
+                <div className="headBtnDiv">
+                    <Link>
+                        <button className='headBtn'>SEE PRODUCT</button>
+                    </Link>
+                </div>
             </div>
         </div>
     ))
