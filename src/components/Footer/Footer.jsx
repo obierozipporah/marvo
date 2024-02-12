@@ -5,19 +5,40 @@ import logo from "../../../resources/assets/shared/desktop/logo.svg"
 import facebookIcon from "../../../resources/assets/shared/desktop/icon-facebook.svg"
 import InstagramIcon from "../../../resources/assets/shared/desktop/icon-instagram.svg"
 import twitterIcon from "../../../resources/assets/shared/desktop/icon-twitter.svg"
+import { NavLink } from 'react-router-dom'
 
-const Footer = () => {
+const Footer = ( {activeLinks} ) => {
+
   return (
     <footer className='footerWrapper'>
         <div className="footerContent">
             <div className="footerTop">
                 <img src={logo} alt='' className='logo'/>
                 <div className='footerLinks'>
-                    {/* don't forget to add the "to" properties */}
-                    <Link>HOME</Link>
-                    <Link>HEADPHONES</Link>
-                    <Link>SPEAKERS</Link>
-                    <Link>EARPHONES</Link>
+                    <NavLink 
+                        to="/"
+                        style={({isActive}) => isActive ? activeLinks : null}
+                    >
+                        HOME
+                    </NavLink>
+                    <NavLink 
+                        to="/headphones"
+                        style={({isActive}) => isActive ? activeLinks : null}
+                    >
+                        HEADPHONES
+                    </NavLink>
+                    <NavLink 
+                        to="/speakers"
+                        style={({isActive}) => isActive ? activeLinks : null}
+                    >
+                        SPEAKERS
+                    </NavLink>
+                    <NavLink 
+                        to="/earphones"
+                        style={({isActive}) => isActive ? activeLinks : null}
+                    >
+                        EARPHONES
+                    </NavLink>
                 </div>
             </div>
             <p className='footerPara'>
