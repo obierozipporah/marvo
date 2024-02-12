@@ -2,8 +2,9 @@ import React, {useState} from 'react'
 import "./Header.css"
 import { RxHamburgerMenu } from "react-icons/rx";
 import { BsCart } from "react-icons/bs";
+import { NavLink } from 'react-router-dom';
 
-const Header = () => {
+const Header = ( {activeLinks} ) => {
 
   // create state for the mobile menu
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
   const toggleMobileMenu = () => {
     setOpenMobileMenu(!openMobileMenu)
   }
-
+  
   return (
     <header className='header'>
       <div className="headerContent">
@@ -20,10 +21,30 @@ const Header = () => {
         <h1>audiophile</h1>
         <BsCart  className='cart'/>
         <nav className={`links ${openMobileMenu ? "mobileMenu" : ""}`}>
-          <a href="#">HOME</a>
-          <a href="#">HEADPHONES</a>
-          <a href="#">SPEAKERS</a>
-          <a href="#">EARPHONES</a>
+          <NavLink 
+            to="/"
+            style={({ isActive }) => isActive ? activeLinks : null}
+          >
+            HOME
+          </NavLink>
+          <NavLink 
+            to="/headphones"
+            style={({ isActive }) => isActive ? activeLinks : null}
+          >
+            HEADPHONES
+          </NavLink>
+          <NavLink 
+            to="/speakers"
+            style={({ isActive }) => isActive ? activeLinks : null}
+          >
+            SPEAKERS
+          </NavLink>
+          <NavLink 
+            to="/earphones"
+            style={({ isActive }) => isActive ? activeLinks : null}
+          >
+            EARPHONES
+          </NavLink>
         </nav>
       </div>
     </header>
