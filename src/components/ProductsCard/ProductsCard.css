@@ -69,7 +69,7 @@
     .earphonesCard img {
         width: 180px;
         position: absolute;
-        top: 4%;
+        top: -25%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
@@ -142,7 +142,7 @@
     .earphonesCard img {
         width: 180px;
         position: absolute;
-        top: 4%;
+        top: -25%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
