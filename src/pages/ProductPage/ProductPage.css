@@ -1,0 +1,210 @@
+@media screen and (max-width: 767px) {
+    .productWrapper {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .productHeading {
+        background: #000;
+        color: #fff;
+        height: 100px;
+    }
+
+    .productImage {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 352px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .productContent h2 {
+        margin: 0 auto;
+        height: 100%;
+        width: 327px;
+        text-align: center;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+
+    .productContent p {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 25px;
+        opacity: 0.5;
+        margin-top: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .productBtn {
+        border: none;
+        padding: 10px 20px;
+        color: #fff;
+        background: #D87D4A;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-bottom: 80px;
+        margin-left: 32%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .productWrapper {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .productHeading {
+        background: #000;
+        color: #fff;
+        height: 100px;
+    }
+
+    .productImage {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #F1F1F1;
+        height: 352px;
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    .productContent h2 {
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        width: 327px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+    }
+
+    .productContent p {
+        margin: 0 auto;
+        text-align: center;
+        width: 527px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.5; 
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+
+    .productBtn {
+        border: none;
+        margin-left: 40%;
+        padding: 15px 25px;
+        color: #fff;
+        background: #D87D4A;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .productWrapper {
+        margin: 0 auto;
+        width: 75%;
+        margin-top: 120px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productHeading {
+        background: #000;
+        color: #fff;
+        height: 120px;
+    }
+
+    .productImage {
+        background-image: url("../../../resources/assets/product-xx59-headphones/desktop/image-category-page-preview.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #F1F1F1;
+        height: 560px;
+        width: 740px;
+        border-radius: 8px;
+    }
+
+    .product {
+        width: 100%;
+        display: flex;
+        gap: 100px;
+        margin-bottom: 100px;
+    }
+
+    .productContent {
+        width: 50%;
+    }
+
+    .productContent h2 {
+        margin-top: 100px;
+        width: 50%;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; 
+        letter-spacing: 1.4px;
+    }
+
+    .product p {
+        margin-top: 25px;
+        width: 445px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.5; 
+    }
+
+    .product:nth-child(2) .productContent{
+        order: 0;
+    }
+
+    .product:nth-child(2) .productImage {
+        order: 1;
+    }
+
+    .productBtn {
+        border: none;
+        padding: 20px 30px;
+        margin-top: 24px;
+        background: #D87D4A;
+        color: #fff;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+
+    .productBtn:hover {
+        background: #FBAF85;
+    }
+}
