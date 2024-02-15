@@ -75,6 +75,22 @@
         transform: translate(-50%, -50%);
         z-index: 1;
     }
+
+    .shopLink {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .shopLink h4 {
+        color: #000;
+    }
+
+    .arrow {
+        height: 20px;
+        color: #D87D4A;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -147,6 +163,25 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
+    }
+
+    .shopLink {
+        width: 80px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        /* gap: 5px; */
+        text-decoration: none;
+    }
+
+    .shopLink h4 {
+        color: #000;
+    }
+
+    .arrow {
+        height: 20px;
+        width: 50px;
+        color: #D87D4A;
     }
 }
 
@@ -230,5 +265,27 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
+    }
+
+    .shopLink {
+        height: 50px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
+    .shopLink h4 {
+        color: #000;
+        margin-bottom: 10%;
+    }
+
+    .arrow {
+        height: 23px;
+        width: 50px;
+        margin-left: -20px;
+        color: #D87D4A;
     }
 }
