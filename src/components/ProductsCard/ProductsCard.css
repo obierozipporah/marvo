@@ -33,7 +33,7 @@
     .headphonesCard h3,
     .speakersCard h3,
     .earphonesCard h3 {
-        margin-top: 90px;
+        margin-top: 80px;
         margin-bottom: 15px;
         font-size: 15px;
         font-weight: 700;
@@ -68,7 +68,6 @@
     }
 
     .earphonesCard img {
-
         width: 180px;
         position: absolute;
         top: 4%;
