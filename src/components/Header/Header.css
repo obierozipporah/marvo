@@ -7,6 +7,30 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        position: relative;
+    }
+
+    .menu .cardWrapper {
+        margin-top: 80px;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: #fff;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .menu h3 {
+        color: #000;
+    }
+
+    .menu h4 {
+        color: #000;
+        opacity: 0.5;
     }
 
     .headerContent {
@@ -43,6 +67,31 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        position: relative;
+    }
+
+    .menu .cardWrapper {
+        margin-top: 80px;
+        padding: 30px;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: #fff;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .menu h3 {
+        color: #000;
+    }
+
+    .menu h4 {
+        color: #000;
+        opacity: 0.5;
     }
 
     .headerContent {
