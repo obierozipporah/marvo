@@ -3,24 +3,30 @@ import "./Header.css"
 import { RxHamburgerMenu } from "react-icons/rx";
 import { BsCart } from "react-icons/bs";
 import { NavLink } from 'react-router-dom';
+import Menu from "../ProductsCard/ProductsCard"
 
 const Header = ( {activeLinks} ) => {
 
   // create state for the mobile menu
-  const [openMobileMenu, setOpenMobileMenu] = useState(false);
+  const [openMenu, setOpenMenu] = useState(false);
 
   // create a function to toggle the mobile menu
   const toggleMobileMenu = () => {
-    setOpenMobileMenu(!openMobileMenu)
+    setOpenMenu(!openMenu)
   }
   
   return (
     <header className='header'>
       <div className="headerContent">
-        <RxHamburgerMenu className='burgerMenu' onClick={toggleMobileMenu}/>
+        <div onClick={toggleMobileMenu}>
+          <RxHamburgerMenu className='burgerMenu' />
+          <div className="menu">
+            {openMenu && <Menu />} 
+          </div>
+        </div>
         <h1>audiophile</h1>
         <BsCart  className='cart'/>
-        <nav className={`links ${openMobileMenu ? "mobileMenu" : ""}`}>
+        <nav className='links'>
           <NavLink 
             to="/"
             style={({ isActive }) => isActive ? activeLinks : null}
