@@ -5,6 +5,7 @@
         margin: 0 auto;
         position: relative;
         margin-top: 40px;
+        margin-bottom: 150px;
     }
 
     .headphonesCard,
@@ -67,9 +68,10 @@
     }
 
     .earphonesCard img {
+
         width: 180px;
         position: absolute;
-        top: -25%;
+        top: 4%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
@@ -142,7 +144,7 @@
     .earphonesCard img {
         width: 180px;
         position: absolute;
-        top: -25%;
+        top: 4%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
