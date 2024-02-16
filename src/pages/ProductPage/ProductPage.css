@@ -1,25 +1,25 @@
 @media screen and (max-width: 767px) {
-    .productWrapper {
+    .productsWrapper {
         margin: 0 auto;
         width: 90%;
         margin-top: 50px;
         margin-bottom: 100px;
     }
 
-    .productHeading {
+    .productsHeading {
         background: #000;
         color: #fff;
         height: 80px;
     }
 
-    .productHeading h1 {
+    .productsHeading h1 {
         display: flex;
         height: 100%;
         justify-content: center;
         align-items: center;
     }
 
-    .productImage {
+    .productsImage {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -28,7 +28,7 @@
         margin-bottom: 40px;
     }
 
-    .productContent h2 {
+    .productsContent h2 {
         margin: 0 auto;
         height: 100%;
         width: 327px;
@@ -53,7 +53,7 @@
         margin-bottom: 30px;
     }
 
-    .productBtn {
+    .productsBtn {
         border: none;
         padding: 10px 20px;
         color: #fff;
@@ -62,33 +62,34 @@
         font-weight: 700;
         line-height: normal;
         letter-spacing: 1px;
+        margin-top: 25px;
         margin-bottom: 80px;
         margin-left: 32%;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .productWrapper {
+    .productsWrapper {
         margin: 0 auto;
         width: 90%;
         margin-top: 50px;
         margin-bottom: 150px;
     }
 
-    .productHeading {
+    .productsHeading {
         background: #000;
         color: #fff;
         height: 100px;
     }
 
-    .productHeading h1 {
+    .productsHeading h1 {
         display: flex;
         height: 100%;
         justify-content: center;
         align-items: center;
     }
 
-    .productImage {
+    .productsImage {
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -98,7 +99,7 @@
         margin-bottom: 40px;
     }
 
-    .productContent h2 {
+    .productsContent h2 {
         height: 100%;
         margin: 0 auto;
         text-align: center;
@@ -111,7 +112,7 @@
         margin-bottom: 30px;
     }
 
-    .productContent p {
+    .productsContent p {
         margin: 0 auto;
         text-align: center;
         width: 527px;
@@ -124,7 +125,7 @@
         margin-bottom: 30px;
     }
 
-    .productBtn {
+    .productsBtn {
         border: none;
         margin-left: 40%;
         padding: 15px 25px;
@@ -139,7 +140,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .productWrapper {
+    .productsWrapper {
         margin: 0 auto;
         width: 75%;
         margin-top: 120px;
@@ -147,20 +148,20 @@
         flex-direction: column;
     }
 
-    .productHeading {
+    .productsHeading {
         background: #000;
         color: #fff;
         height: 80px;
     }
 
-    .productHeading h1 {
+    .productsHeading h1 {
         display: flex;
         height: 100%;
         justify-content: center;
         align-items: center;
     }
 
-    .productImage {
+    .productsImage {
         background-image: url("../../../resources/assets/product-xx59-headphones/desktop/image-category-page-preview.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -171,18 +172,18 @@
         border-radius: 8px;
     }
 
-    .product {
+    .products {
         width: 100%;
         display: flex;
         gap: 100px;
         margin-bottom: 100px;
     }
 
-    .productContent {
+    .productsContent {
         width: 50%;
     }
 
-    .productContent h2 {
+    .productsContent h2 {
         margin-top: 100px;
         width: 50%;
         font-size: 40px;
@@ -192,7 +193,7 @@
         letter-spacing: 1.4px;
     }
 
-    .product p {
+    .products p {
         margin-top: 25px;
         width: 445px;
         font-size: 15px;
@@ -202,15 +203,15 @@
         opacity: 0.5; 
     }
 
-    .product:nth-child(2) .productContent{
+    .products:nth-child(2) .productsContent {
         order: 0;
     }
 
-    .product:nth-child(2) .productImage {
+    .products:nth-child(2) .productsImage {
         order: 1;
     }
 
-    .productBtn {
+    .productsBtn {
         border: none;
         padding: 20px 30px;
         margin-top: 24px;
@@ -224,7 +225,7 @@
         margin-bottom: 15px;
     }
 
-    .productBtn:hover {
+    .productsBtn:hover {
         background: #FBAF85;
     }
 }
