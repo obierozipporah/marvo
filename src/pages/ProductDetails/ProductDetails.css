@@ -1,5 +1,112 @@
 @media screen and (max-width: 767px) {
-    
+    .productWrapper {
+        margin: 0 auto;
+        width: 85%;
+        margin-top: 50px;        
+    }
+
+    .productImage  {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 352px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .name {
+        width: 250px;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+
+    .description {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.5;
+        margin-bottom: 30px;
+    }
+
+    .price {
+        color: #000;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1.286px;
+        margin-bottom: 30px
+    }
+
+    .quantity {
+        display: flex;
+        width: 290px;
+        align-items: center;
+        gap: 20px;
+        height: 48px;
+        margin-bottom: 80px
+    }
+
+    .qtyBtns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 100%;
+        gap: 30px;
+        background: #F1F1F1;
+    }
+
+    .add,
+    .minus {
+        opacity: 0.25;
+    }
+
+    .cartBtn {
+        border: none;
+        width: 50%;
+        height: 100%;
+        padding: 10px 20px;
+        background: #D87D4A;
+
+        color: #FFF;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .features {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px; 
+        letter-spacing: 0.857px;
+        margin-bottom: 30px
+    }
+
+    .featuresPara {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.5;
+        margin-bottom: 30px
+    }
+
+    .box {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px; 
+        letter-spacing: 0.857px;
+        margin-bottom: 25px
+    }
+
+    .boxContent {
+        color: #D87D4A;
+        margin-right: 10px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
