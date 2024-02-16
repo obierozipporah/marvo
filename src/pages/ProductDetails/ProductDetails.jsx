@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 import "./ProductDetails.css"
 import data from "../../../resources/data.json"
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
+import ProductsCard from "../../components/ProductsCard/ProductsCard"
+import BestAudio from "../../components/BestAudio/BestAudio"
 
 const ProductDetails = () => {
 
@@ -21,7 +23,7 @@ const ProductDetails = () => {
 
     // console.log(data)
 
-    const { id } = useParams();
+    const { id, category } = useParams();
     
     const getProduct = data.filter((prod) => prod.id == id)
 
@@ -31,52 +33,85 @@ const ProductDetails = () => {
 
     const productElement = flippedProduct.map(product => (
         <div key={product.id} className='product'>
-            <div
-              className='productImage'
-              style={{backgroundImage: `url(${product.categoryImage.mobile})`}}
-            >
-            </div>
-            <h1 className='name'>{product.name.toUpperCase()}</h1>
-            <p className='description'>{product.description}</p>
-            <p className='price'>{`$ ${product.price}`}</p>
-            <div className='quantity'>
-              <div className="qtyBtns">
-                <p onClick={decreaseQuantity} className='minus'>-</p>
-                <p>{quantityOrdered}</p>
-                <p onClick={increaseQuantity} className='add'>+</p>
+            <Link to={`${category}`} className='productBack'>
+              <h4>Go back</h4>
+            </Link>
+            <div className="productContent">
+              <div
+                className='productImage'
+                style={{backgroundImage: `url(${product.categoryImage.mobile})`}}
+              >
               </div>
-              <button className='cartBtn'>ADD TO CART</button>
-            </div>  
+              <div className="productContentBottom">
+                <h1 className='name'>{product.name.toUpperCase()}</h1>
+                <p className='description'>{product.description}</p>
+                <p className='price'>{`$ ${product.price}`}</p>
+                <div className='quantity'>
+                  <div className="qtyBtns">
+                    <p onClick={decreaseQuantity} className='minus'>-</p>
+                    <p>{quantityOrdered}</p>
+                    <p onClick={increaseQuantity} className='add'>+</p>
+                  </div>
+                  <button className='cartBtn'>ADD TO CART</button>
+              </div>
+              </div>
+            </div>
+
             <h3 className='features'>FEATURES</h3>
             <p className='featuresPara'>{product.features}</p>
             <h3 className='box'>IN THE BOX</h3>
+
             <div className="includes">
               {
                 product.includes.map((include, index) => (
                   <p key={index}>
                   <span className="boxContent"> {`${include.quantity}x`} 
                   </span>
-                  {include.item}
+                  <span className="boxItem">{include.item}</span>
                   </p>
                 ))
               }
             </div>
+
             <div className="gallery">
-              {
-                Object.values(product.gallery).map((image, index) => (
-                  <div 
-                    key={index} 
-                    style={{backgroundImage: `url(${image.mobile})`}}>
-                  </div>
-                ))
-              }
+              <div className='gallery1'
+                style={{backgroundImage: `url(${product.gallery.first.mobile})`}}
+              ></div>
+              <div className='gallery2'
+                style={{backgroundImage: `url(${product.gallery.second.mobile})`}}
+              ></div>
+              <div className='gallery3'
+                style={{backgroundImage: `url(${product.gallery.third.mobile})`}}
+              ></div>
+            </div>
+
+            <div className='recommended'>
+              <h3>YOU MAY ALSO LIKE</h3>
+              <div className="recommendedContent">
+                {
+                  product.others.map((other, index) => (
+                    <div key={index}>
+                      <div
+                        className='recommendedImages'
+                        style={{backgroundImage: `url(${other.image.mobile})`}}>
+                      </div>
+                      <div className='recommendedName'>{other.name}</div>
+                      <button className='recommendedBtn'>SEE PRODUCT</button>
+                    </div>
+                  ))
+                }
+              </div>
             </div>
         </div>
     ))
 
   return (
-    <section className='productWrapper'>
-        {productElement}
+    <section>
+        <div className="productWrapper">
+          {productElement}
+        </div>
+        <ProductsCard />
+        <BestAudio />
     </section>
   )
 }
