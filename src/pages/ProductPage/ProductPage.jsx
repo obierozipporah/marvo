@@ -12,6 +12,8 @@ const ProductPage = () => {
     // filter the data
     const filteredProducts = data.filter(item => item.category === category);
 
+    console.log(filteredProducts);
+
     // flip the data
     const flippedProducts = [...filteredProducts].reverse()
 
@@ -19,17 +21,17 @@ const ProductPage = () => {
 
     // map over the flipped data
     const productElement = flippedProducts.map(product => (
-        <div key={product.id} className='product'>
+        <div key={product.id} className='products'>
             <div 
-                className="productImage"
+                className="productsImage"
                 style={{backgroundImage: `url(${product.categoryImage.mobile})`}}
             >
             </div>
-            <div className="productContent">
+            <div className="productsContent">
                 <h2>{product.name}</h2>
                 <p>{product.description}</p>
                 <Link className='prodBtnContainer'>
-                    <button className='productBtn'>SEE PRODUCT</button>
+                    <button className='productsBtn'>SEE PRODUCT</button>
                 </Link>
             </div>
         </div>
@@ -37,10 +39,10 @@ const ProductPage = () => {
 
   return (
     <section>
-        <div className="productHeading">
+        <div className="productsHeading">
             <h1>{flippedProducts[0].category.toUpperCase()}</h1>
         </div>
-        <div className="productWrapper">
+        <div className="productsWrapper">
             {productElement}
         </div>
         <ProductsCard />
