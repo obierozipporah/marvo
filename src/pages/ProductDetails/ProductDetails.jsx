@@ -57,20 +57,25 @@ const ProductDetails = () => {
               </div>
             </div>
 
-            <h3 className='features'>FEATURES</h3>
-            <p className='featuresPara'>{product.features}</p>
-            <h3 className='box'>IN THE BOX</h3>
-
-            <div className="includes">
-              {
-                product.includes.map((include, index) => (
-                  <p key={index}>
-                  <span className="boxContent"> {`${include.quantity}x`} 
-                  </span>
-                  <span className="boxItem">{include.item}</span>
-                  </p>
-                ))
-              }
+            <div className="featuresContent">
+              <div className="featuresTop">
+                <h3 className='features'>FEATURES</h3>
+                <p className='featuresPara'>{product.features}</p>
+              </div>
+              <div className="boxContents">
+                <h3 className='box'>IN THE BOX</h3>
+                <div className="includes">
+                  {
+                    product.includes.map((include, index) => (
+                      <p key={index}>
+                      <span className="boxContent"> {`${include.quantity}x`}
+                      </span>
+                      <span className="boxItem">{include.item}</span>
+                      </p>
+                    ))
+                  }
+                </div>
+              </div>
             </div>
 
             <div className="gallery">
@@ -90,13 +95,15 @@ const ProductDetails = () => {
               <div className="recommendedContent">
                 {
                   product.others.map((other, index) => (
-                    <div key={index}>
+                    <div key={index} className='recommendedItem'>
                       <div
                         className='recommendedImages'
                         style={{backgroundImage: `url(${other.image.mobile})`}}>
                       </div>
-                      <div className='recommendedName'>{other.name}</div>
-                      <button className='recommendedBtn'>SEE PRODUCT</button>
+                      <div className="recommendedDetails">
+                        <div className='recommendedName'>{other.name}</div>
+                        <button className='recommendedBtn'>SEE PRODUCT</button>
+                      </div>
                     </div>
                   ))
                 }
