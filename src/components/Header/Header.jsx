@@ -4,6 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { BsCart } from "react-icons/bs";
 import { NavLink } from 'react-router-dom';
 import Menu from "../ProductsCard/ProductsCard"
+import logo from "../../../resources/assets/shared/desktop/logo.svg"
 
 const Header = ( {activeLinks} ) => {
 
@@ -24,34 +25,38 @@ const Header = ( {activeLinks} ) => {
             {openMenu && <Menu />} 
           </div>
         </div>
-        <h1>audiophile</h1>
-        <BsCart  className='cart'/>
-        <nav className='links'>
-          <NavLink 
-            to="/"
-            style={({ isActive }) => isActive ? activeLinks : null}
-          >
-            HOME
-          </NavLink>
-          <NavLink 
-            to="/headphones"
-            style={({ isActive }) => isActive ? activeLinks : null}
-          >
-            HEADPHONES
-          </NavLink>
-          <NavLink 
-            to="/speakers"
-            style={({ isActive }) => isActive ? activeLinks : null}
-          >
-            SPEAKERS
-          </NavLink>
-          <NavLink 
-            to="/earphones"
-            style={({ isActive }) => isActive ? activeLinks : null}
-          >
-            EARPHONES
-          </NavLink>
-        </nav>
+        <div className="headerLinks">
+          <div className="headerLogo">
+            <img src={logo} alt="site logo" />
+          </div>
+          <BsCart  className='cart'/>
+          <nav className='links'>
+            <NavLink
+              to="/"
+              style={({ isActive }) => isActive ? activeLinks : null}
+            >
+              HOME
+            </NavLink>
+            <NavLink
+              to="/headphones"
+              style={({ isActive }) => isActive ? activeLinks : null}
+            >
+              HEADPHONES
+            </NavLink>
+            <NavLink
+              to="/speakers"
+              style={({ isActive }) => isActive ? activeLinks : null}
+            >
+              SPEAKERS
+            </NavLink>
+            <NavLink
+              to="/earphones"
+              style={({ isActive }) => isActive ? activeLinks : null}
+            >
+              EARPHONES
+            </NavLink>
+          </nav>
+        </div>
       </div>
     </header>
   )
