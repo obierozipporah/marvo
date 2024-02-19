@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import Home from './components/Home/Home'
 import ProductDetails from './pages/ProductDetails/ProductDetails'
@@ -8,6 +8,12 @@ import ProductDetails from './pages/ProductDetails/ProductDetails'
 import ProductPage from './pages/ProductPage/ProductPage'
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname])
 
   return (
     <div>
