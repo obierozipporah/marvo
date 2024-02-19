@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "./Header.css"
 import { RxHamburgerMenu } from "react-icons/rx";
 import { BsCart } from "react-icons/bs";
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import Menu from "../ProductsCard/ProductsCard"
 import logo from "../../../resources/assets/shared/desktop/logo.svg"
 
@@ -27,7 +27,9 @@ const Header = ( {activeLinks} ) => {
         </div>
         <div className="headerLinks">
           <div className="headerLogo">
-            <img src={logo} alt="site logo" />
+            <Link to="/">
+              <img src={logo} alt="site logo" />
+            </Link>
           </div>
           <BsCart  className='cart'/>
           <nav className='links'>
