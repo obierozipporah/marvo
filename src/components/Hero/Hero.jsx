@@ -1,7 +1,9 @@
 import React from 'react'
 import './Hero.css'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
+
   return (
     <section className='heroWrapper'>
         <div className='bckImg'>
@@ -12,7 +14,9 @@ const Hero = () => {
                 Experience natural, lifelike audio and exceptional 
                 build quality made for the passionate music enthusiast.
               </p>
-              <button className='heroBtn'>SEE PRODUCT</button>
+              <Link to="/headphones">
+                <button className='heroBtn'>SEE PRODUCT</button>
+              </Link>
             </div>
         </div>
     </section>
