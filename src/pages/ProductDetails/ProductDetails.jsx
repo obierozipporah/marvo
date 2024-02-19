@@ -33,7 +33,7 @@ const ProductDetails = () => {
 
     const productElement = flippedProduct.map(product => (
         <div key={product.id} className='product'>
-            <Link to={`${category}`} className='productBack'>
+            <Link to={`/${category}`} className='productBack'>
               <h4>Go back</h4>
             </Link>
             <div className="productContent">
@@ -102,7 +102,9 @@ const ProductDetails = () => {
                       </div>
                       <div className="recommendedDetails">
                         <div className='recommendedName'>{other.name}</div>
-                        <button className='recommendedBtn'>SEE PRODUCT</button>
+                        <Link>
+                          <button className='recommendedBtn'>SEE PRODUCT</button>
+                        </Link>
                       </div>
                     </div>
                   ))
