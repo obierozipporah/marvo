@@ -227,5 +227,6 @@
 
     .productsBtn:hover {
         background: #FBAF85;
+        cursor: pointer;
     }
 }
