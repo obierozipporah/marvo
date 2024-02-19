@@ -30,7 +30,7 @@ const ProductPage = () => {
             <div className="productsContent">
                 <h2>{product.name}</h2>
                 <p>{product.description}</p>
-                <Link className='prodBtnContainer'>
+                <Link to={`/${category}/${product.id}`} className='prodBtnContainer'>
                     <button className='productsBtn'>SEE PRODUCT</button>
                 </Link>
             </div>
