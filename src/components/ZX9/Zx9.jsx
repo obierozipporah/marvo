@@ -2,6 +2,7 @@ import React from 'react'
 import "./Zx9.css"
 import speaker from "../../../resources/assets/home/desktop/image-speaker-zx9.png"
 import circle from "../../../resources/assets/home/mobile/pattern-circles.svg"
+import { Link } from 'react-router-dom'
 
 
 const Zx9 = () => {
@@ -16,7 +17,9 @@ const Zx9 = () => {
               are phenomenally built to deliver truly remarkable sound.
             </p>
             <div className="zx9Btn">
+              <Link to="/speakers">
                 <button>SEE PRODUCT</button>
+              </Link>
             </div>
         </div>
     </div>
