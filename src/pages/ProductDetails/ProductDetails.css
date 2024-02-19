@@ -538,6 +538,11 @@
         letter-spacing: 1px;
     }
 
+    .cartBtn:hover {
+        background: #FBAF85;
+        cursor: pointer;
+    }
+
     .featuresContent {
         display: flex;
         margin-bottom: 50px;
