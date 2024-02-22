@@ -4,16 +4,26 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { BsCart } from "react-icons/bs";
 import { NavLink, Link } from 'react-router-dom';
 import Menu from "../ProductsCard/ProductsCard"
+import Cart from '../Cart/Cart';
 import logo from "../../../resources/assets/shared/desktop/logo.svg"
 
 const Header = ( {activeLinks} ) => {
 
   // create state for the mobile menu
   const [openMenu, setOpenMenu] = useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(false)
 
   // create a function to toggle the mobile menu
   const toggleMobileMenu = () => {
     setOpenMenu(!openMenu)
+  }
+
+  const toggleCart = () => {
+    setIsCartOpen(!isCartOpen)
+  }
+
+  const closeCart = () => {
+    setIsCartOpen(false)
   }
   
   return (
@@ -31,7 +41,7 @@ const Header = ( {activeLinks} ) => {
               <img src={logo} alt="site logo" />
             </Link>
           </div>
-          <BsCart  className='cart'/>
+          
           <nav className='links'>
             <NavLink
               to="/"
@@ -58,6 +68,17 @@ const Header = ( {activeLinks} ) => {
               EARPHONES
             </NavLink>
           </nav>
+          <div onClick={toggleCart}>
+            <BsCart  className='cart'/>
+            {
+                isCartOpen && (
+                  <div className='cartOverlay' onClick={closeCart}></div>
+                )
+              }
+            <div className={`cartOpen ${isCartOpen ? 'show' : ""}`}>
+              {isCartOpen && <Cart />}
+            </div>
+          </div>
         </div>
       </div>
     </header>
