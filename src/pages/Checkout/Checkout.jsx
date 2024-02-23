@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Checkout.css"
 import summaryImage from "/resources/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
+import shape from "../../../resources/assets/shared/desktop/shape.svg"
 
 const Checkout = () => {
+    
   return (
     <section className='checkoutContainer'>
         <h3 id='checkoutBack'>Go back</h3>
@@ -104,6 +106,16 @@ const Checkout = () => {
                         id='eMoneyPin'
                     />
                 </div>
+            </div>
+
+            <div className="checkoutPara">
+                <img src={shape} alt="" />
+                <p>
+                    The ‘Cash on Delivery’ option enables you to pay in
+                    cash when our delivery courier arrives at your residence.
+                    Just make sure your address is correct so that your order
+                    will not be cancelled.
+                </p>
             </div>
         </form>
         {/* Form ends here */}
