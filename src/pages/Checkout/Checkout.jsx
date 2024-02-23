@@ -10,39 +10,55 @@ const Checkout = () => {
         <form action="" className='formContainer'>
             <h1>Checkout</h1>
             <legend>BILLING DETAILS</legend>
-            <label htmlFor="name">Name</label>
-            <input 
-                type="text" 
-                id='name'
-            />
-            <label htmlFor="email" >Email Address</label>
-            <input 
-                type="email" 
-                id='email'
-            />
-            <label htmlFor="phoneNumber" >Phone Number</label>
-            <input 
-                type="tel" 
-                id='phoneNumber'
-            />
+            <div className="billingDetails">
+                <div>
+                    <label htmlFor="name">Name</label>
+                    <input
+                        type="text"
+                        id='name'
+                    />
+                </div>
+                <div>
+                    <label htmlFor="email" >Email Address</label>
+                    <input
+                        type="email"
+                        id='email'
+                    />
+                </div>
+                <div>
+                    <label htmlFor="phoneNumber" >Phone Number</label>
+                    <input
+                        type="tel"
+                        id='phoneNumber'
+                    />
+                </div>
+            </div>
+            
 
             <legend>SHIPPING INFO</legend>
-            <label htmlFor="address">Your Address</label>
-            <input 
-                type="text" 
-                id='address'
-            />
-            <label htmlFor="zipCode">Zip Code</label>
-            <input 
-                type="text"
-                id='zipCode' 
-            />
-
-            <label htmlFor="city">City</label>
-            <input 
-                type="text" 
-                id='city'
-            />
+            <div className="shippingInfo">
+                <div>
+                    <label htmlFor="address">Your Address</label>
+                    <input
+                        type="text"
+                        id='address'
+                    />
+                </div>
+                <div className='zipCode'>
+                    <label htmlFor="zipCode">Zip Code</label>
+                    <input
+                        type="text"
+                        id='zipCode'
+                    />
+                </div>
+                <div className='city'>
+                    <label htmlFor="city">City</label>
+                    <input
+                        type="text"
+                        id='city'
+                    />
+                </div>
+            </div>
 
             <label htmlFor="country">Country</label>
             <input 
@@ -51,31 +67,44 @@ const Checkout = () => {
             />
             
             <legend>PAYMENT DETAILS</legend>
-                <legend>Payment Method</legend>
-                <input 
-                    type="radio"
-                    id="eMoney"
-                />
-                <label htmlFor="eMoney">e-Money</label>
-                <br />
-                <input 
-                    type="radio"
-                    id="cod"
-                />
-                <label htmlFor="cod">Cash on Delivery</label>
-                <br />
+                <div className="paymentMethod">
+                    <legend>Payment Method</legend>
+                    <div className="paymentOptions">
+                        <div className='eMoney'>
+                            <input
+                                type="radio"
+                                id="eMoney"
+                            />
+                            <label htmlFor="eMoney">e-Money</label>
+                        </div>
+                        <br />
+                        <div className='cod'>
+                            <input
+                                type="radio"
+                                id="cod"
+                            />
+                            <label htmlFor="cod">Cash on Delivery</label>
+                        </div>
+                    </div>
+                    <br />
+                </div>
 
-            <label htmlFor="eMoneyNumber">e-Money Number</label>
-            <input 
-                type="number"
-                id='eMoneyNumber' 
-            />
-
-            <label htmlFor="eMoneyPin">e-Money PIN</label>
-            <input 
-                type="number"
-                id='eMoneyPin' 
-            />
+            <div className="accounts">
+                <div>
+                    <label htmlFor="eMoneyNumber">e-Money Number</label>
+                    <input
+                        type="number"
+                        id='eMoneyNumber'
+                    />
+                </div>
+                <div>
+                    <label htmlFor="eMoneyPin">e-Money PIN</label>
+                    <input
+                        type="number"
+                        id='eMoneyPin'
+                    />
+                </div>
+            </div>
         </form>
         {/* Form ends here */}
         <div className='summaryContainer'>
