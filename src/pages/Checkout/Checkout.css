@@ -1,0 +1,197 @@
+@media screen and (max-width: 767px) {
+    .checkoutContainer {
+        background: #FAFAFA;
+    }
+
+    #checkoutBack {
+        width: 200px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px; 
+        opacity: 0.5;
+        margin-left: 12px;
+        padding: 15px;
+    }
+
+    .formContainer {
+        margin: 0 auto;
+        height: auto;
+        border-radius: 8px;
+        background: #FFF;
+        width: 90%;
+        padding: 15px;
+        margin-top: 8px;
+    }
+
+    .formContainer h1 {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        margin-bottom: 30px;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    legend {
+        color: #D87D4A;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 25px; 
+        letter-spacing: 0.929px;
+        margin-bottom: 15px;
+    }
+
+    legend:nth-of-type(4) {
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: -0.21px
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="number"] {
+        display: block;
+        width: 280px;
+        height: 56px;
+        border-radius: 8px;
+        border: 1px solid #CFCFCF;
+        background: #FFF;
+
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: -0.25px;
+        text-indent: 10px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: -0.21px;
+    }
+
+    #eMoney + label {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    #cod + label {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .summaryContainer {
+        width: 90%;
+        height: auto; /* watch this */
+        margin: 0 auto;
+        background: #FFF;
+        margin-top: 30px;
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+    #summary {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        margin-bottom: 15px;
+    }
+
+    .summaryTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .summaryTop div:nth-child(2) {
+        margin-left: -90px;
+    }
+
+    .summaryTop div:nth-child(2) h4:nth-child(1) {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+
+    .summaryTop div:nth-child(2) h4:nth-child(2) {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 25px;
+        opacity: 0.5;
+    }
+
+    .summaryBottom div:nth-child(1),
+    .summaryBottom div:nth-child(2),
+    .summaryBottom div:nth-child(3) {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+    }
+
+    .summaryBottom div:nth-child(1) h3:nth-child(1), 
+    .summaryBottom div:nth-child(2) h3:nth-child(1),
+    .summaryBottom div:nth-child(3) h3:nth-child(1) {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.5;
+    }
+
+    .summaryBottom div:nth-child(1) h3:nth-child(2),
+    .summaryBottom div:nth-child(2) h3:nth-child(2),
+    .summaryBottom div:nth-child(3) h3:nth-child(2) {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .summaryBottom div:nth-child(4) {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .summaryBottom div:nth-child(4) h3:nth-child(1) {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        opacity: 0.5;
+    }
+
+    .summaryBottom div:nth-child(4) h3:nth-child(2) {
+        color: #D87D4A;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .formBtn {
+        margin: 0 auto;
+        width: 279px;
+        height: 48px;
+        margin-top: 30px;
+    }
+
+    .formBtn button {
+        border: none;
+        height: 100%;
+        width: 100%;
+        background: #D87D4A;
+
+        color: #FFF;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 1px;
+
+    }
+}
