@@ -57,7 +57,7 @@ const ProductDetails = () => {
               <div className="productContentBottom">
                 <h1 className='name'>{product.name.toUpperCase()}</h1>
                 <p className='description'>{product.description}</p>
-                <p className='price'>{`$ ${product.price}`}</p>
+                <p className='price'>{`$ ${product.price.toLocaleString()}`}</p>
                 <div className='quantity'>
                   <div className="qtyBtns">
                     <p onClick={decreaseQuantity} className='minus'>-</p>
