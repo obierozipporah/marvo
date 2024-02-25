@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
     .cartContent {
         margin: 0 auto;
-        height: 350px;
+        height: auto;
         width: 90%;
         margin-top: 30px;
         border-radius: 8px;
@@ -120,7 +120,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cartContent {
         margin: 0 auto;
-        height: 450px;
+        height: auto;
         width: 90%;
         margin-top: 30px;
         border-radius: 8px;
@@ -238,7 +238,7 @@
 @media screen and (min-width: 1024px) {
     .cartContent {
         margin: 0 auto;
-        height: 450px;
+        height: auto;
         width: 100%;
         margin-top: 30px;
         border-radius: 8px;
@@ -290,6 +290,7 @@
     }
 
     .cartCenter h3:nth-child(1) {
+        width: 100px;
         font-size: 15px;
         font-weight: 700;
         line-height: 25px;
