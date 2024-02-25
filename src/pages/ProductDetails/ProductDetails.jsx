@@ -4,6 +4,7 @@ import data from "../../../resources/data.json"
 import { useParams, Link } from 'react-router-dom'
 import ProductsCard from "../../components/ProductsCard/ProductsCard"
 import BestAudio from "../../components/BestAudio/BestAudio"
+import { useCart } from '../../components/CartContext/CartContext'
 
 const ProductDetails = () => {
 
@@ -23,13 +24,24 @@ const ProductDetails = () => {
 
     // console.log(data)
 
+    // parameters for the url
     const { id, category } = useParams();
     
+    // getting and filtering the data to use in the component
     const getProduct = data.filter((prod) => prod.id == id)
-
     const flippedProduct = [...getProduct].reverse()
+    // console.log(flippedProduct)
 
-    console.log(flippedProduct)
+
+    const product = getProduct[0]
+    const { addToCart } = useCart()
+    const handleAddTocart = () => {
+      addToCart(product, quantityOrdered)
+      setQuantityOrdered(1)
+    }
+
+    console.log(product);
+    
 
     const productElement = flippedProduct.map(product => (
         <div key={product.id} className='product'>
@@ -52,7 +64,7 @@ const ProductDetails = () => {
                     <p>{quantityOrdered}</p>
                     <p onClick={increaseQuantity} className='add'>+</p>
                   </div>
-                  <button className='cartBtn'>ADD TO CART</button>
+                  <button className='cartBtn' onClick={handleAddTocart}>ADD TO CART</button>
               </div>
               </div>
             </div>
