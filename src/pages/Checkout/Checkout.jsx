@@ -1,15 +1,46 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Checkout.css"
 import summaryImage from "/resources/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
 import shape from "../../../resources/assets/shared/desktop/shape.svg"
 
 const Checkout = () => {
     
+
+    const [formData, setFormData] = useState({
+        fullName: "",
+        email: "",
+        phoneNumber: "",
+        address: "",
+        zipCode: "",
+        city: "",
+        country: "",
+        paymentMethod: "",
+        eMoneyNumber: "",
+        eMoneyPin: ""
+    })
+
+    // console.log(formData)
+
+    const handleChange = (event) => {
+        setFormData(prevFormData => {
+            const {name, type, checked, value} = event.target
+            return {
+                ...prevFormData,
+                [name]: type === "checkbox" ? checked : value
+            }
+        })
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        console.log(formData)
+    }
+
   return (
     <section className='checkoutContainer'>
         <h3 id='checkoutBack'>Go back</h3>
         {/* Form starts here */}
-        <form action="" className='formContainer'>
+        <form action="" className='formContainer' onSubmit={handleSubmit} id='checkoutForm'>
             <h1>Checkout</h1>
             <legend>BILLING DETAILS</legend>
             <div className="billingDetails">
@@ -18,6 +49,9 @@ const Checkout = () => {
                     <input
                         type="text"
                         id='name'
+                        name="fullName"
+                        onChange={handleChange}
+                        value={formData.fullName}
                     />
                 </div>
                 <div>
@@ -25,6 +59,9 @@ const Checkout = () => {
                     <input
                         type="email"
                         id='email'
+                        name="email"
+                        onChange={handleChange}
+                        value={formData.email}
                     />
                 </div>
                 <div>
@@ -32,6 +69,9 @@ const Checkout = () => {
                     <input
                         type="tel"
                         id='phoneNumber'
+                        name="phoneNumber"
+                        onChange={handleChange}
+                        value={formData.phoneNumber}
                     />
                 </div>
             </div>
@@ -44,6 +84,9 @@ const Checkout = () => {
                     <input
                         type="text"
                         id='address'
+                        name="address"
+                        onChange={handleChange}
+                        value={formData.address}
                     />
                 </div>
                 <div className='zipCode'>
@@ -51,6 +94,9 @@ const Checkout = () => {
                     <input
                         type="text"
                         id='zipCode'
+                        name="zipCode"
+                        onChange={handleChange}
+                        value={formData.zipCode}
                     />
                 </div>
                 <div className='city'>
@@ -58,6 +104,9 @@ const Checkout = () => {
                     <input
                         type="text"
                         id='city'
+                        name="city"
+                        onChange={handleChange}
+                        value={formData.city}
                     />
                 </div>
             </div>
@@ -65,7 +114,10 @@ const Checkout = () => {
             <label htmlFor="country">Country</label>
             <input 
                 type="text"
-                id='country' 
+                id='country'
+                name="country"
+                onChange={handleChange}
+                value={formData.country} 
             />
             
             <legend>PAYMENT DETAILS</legend>
@@ -76,6 +128,10 @@ const Checkout = () => {
                             <input
                                 type="radio"
                                 id="eMoney"
+                                name="paymentMethod"
+                                onChange={handleChange}
+                                value="e-Money"
+                                checked={formData.paymentMethod === "e-Money"}
                             />
                             <label htmlFor="eMoney">e-Money</label>
                         </div>
@@ -84,6 +140,10 @@ const Checkout = () => {
                             <input
                                 type="radio"
                                 id="cod"
+                                name="paymentMethod"
+                                onChange={handleChange}
+                                value="Cash on Delivery"
+                                checked={formData.paymentMethod === "Cash on Delivery"}
                             />
                             <label htmlFor="cod">Cash on Delivery</label>
                         </div>
@@ -97,6 +157,9 @@ const Checkout = () => {
                     <input
                         type="number"
                         id='eMoneyNumber'
+                        name="eMoneyNumber"
+                        onChange={handleChange}
+                        value={formData.eMoneyNumber}
                     />
                 </div>
                 <div>
@@ -104,6 +167,9 @@ const Checkout = () => {
                     <input
                         type="number"
                         id='eMoneyPin'
+                        name="eMoneyPin"
+                        onChange={handleChange}
+                        value={formData.eMoneyPin}
                     />
                 </div>
             </div>
@@ -148,7 +214,7 @@ const Checkout = () => {
                     </div>
                 </div>
                 <div className="formBtn">
-                    <button>CONTINUE & PAY</button>
+                    <button type='submit' form='checkoutForm'>CONTINUE & PAY</button>
                 </div>
             </div>
     </section>
