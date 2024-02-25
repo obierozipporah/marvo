@@ -23,7 +23,7 @@ const Cart = () => {
                     <h3>${cartProduct.price.toLocaleString()}</h3>
                 </div>
                 <div className='cartQty'>
-                    <p onClick={() => updateQuantity(cartProduct.id, cartProduct.quantity - 1)}>-</p>
+                    <p onClick={() => updateQuantity(Math.max(cartProduct.id, cartProduct.quantity - 1), 0)}>-</p>
                     <p>{cartProduct.quantity}</p>
                     <p onClick={() => updateQuantity(cartProduct.id, cartProduct.quantity + 1)}>+</p>
                 </div>
