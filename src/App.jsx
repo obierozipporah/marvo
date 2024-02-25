@@ -6,6 +6,7 @@ import Home from './components/Home/Home'
 import ProductDetails from './pages/ProductDetails/ProductDetails'
 import Checkout from "./pages/Checkout/Checkout"
 import ProductPage from './pages/ProductPage/ProductPage'
+import { CartProvider } from './components/CartContext/CartContext'
 
 function App() {
 
@@ -17,14 +18,16 @@ function App() {
 
   return (
     <div>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path='/' element={<Home />}/>
-          <Route path='/:category' element={<ProductPage/>}/>
-          <Route path='/:category/:id' element={<ProductDetails/>}/>
-          <Route path='/checkout' element={<Checkout />}/>
-        </Route>
-      </Routes>
+      <CartProvider>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path='/' element={<Home />}/>
+            <Route path='/:category' element={<ProductPage/>}/>
+            <Route path='/:category/:id' element={<ProductDetails/>}/>
+            <Route path='/checkout' element={<Checkout />}/>
+          </Route>
+        </Routes>
+      </CartProvider>
     </div>
   )
 }
