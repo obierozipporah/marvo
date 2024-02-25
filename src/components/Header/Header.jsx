@@ -22,6 +22,11 @@ const Header = ( {activeLinks} ) => {
     setIsCartOpen(!isCartOpen)
   }
 
+  // add a function to stop
+  const stopPropagation = (e) => {
+    e.stopPropagation()
+  }
+
   const closeCart = () => {
     setIsCartOpen(false)
   }
@@ -75,7 +80,7 @@ const Header = ( {activeLinks} ) => {
                   <div className='cartOverlay' onClick={closeCart}></div>
                 )
               }
-            <div className={`cartOpen ${isCartOpen ? 'show' : ""}`}>
+            <div className={`cartOpen ${isCartOpen ? 'show' : ""}`} onClick={stopPropagation}>
               {isCartOpen && <Cart />}
             </div>
           </div>
