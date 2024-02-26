@@ -2,8 +2,15 @@ import React from 'react'
 import "./Cart.css"
 import cartImage from "/resources/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
 import { useCart } from '../CartContext/CartContext'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Cart = () => {
+
+    const navigate = useNavigate()
+
+    const handleCheckout = () => {
+        navigate("/checkout")
+    }
 
     const { cartProducts, clearCart, removeFromCart, updateQuantity, getTotalCost } = useCart()
 
@@ -23,7 +30,7 @@ const Cart = () => {
                     <h3>${cartProduct.price.toLocaleString()}</h3>
                 </div>
                 <div className='cartQty'>
-                    <p onClick={() => updateQuantity(Math.max(cartProduct.id, cartProduct.quantity - 1), 0)}>-</p>
+                    <p onClick={() => updateQuantity(cartProduct.id, Math.max(0, cartProduct.quantity - 1))}>-</p>
                     <p>{cartProduct.quantity}</p>
                     <p onClick={() => updateQuantity(cartProduct.id, cartProduct.quantity + 1)}>+</p>
                 </div>
@@ -34,7 +41,7 @@ const Cart = () => {
                 <h3>${getTotalCost().toLocaleString()}</h3>
             </div>
             <div className='chkOutBtn'>
-                <button>CHECKOUT</button>
+                <button onClick={handleCheckout}>CHECKOUT</button>
             </div>
         </div>
     </section>
