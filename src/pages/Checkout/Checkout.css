@@ -114,10 +114,11 @@
     }
 
     .summaryTop div:nth-child(2) {
-        margin-left: -90px;
+        margin-left: -20%;
     }
 
     .summaryTop div:nth-child(2) h4:nth-child(1) {
+        width: 100px;
         font-size: 15px;
         font-weight: 700;
         line-height: 25px;
@@ -366,10 +367,11 @@
     }
 
     .summaryTop div:nth-child(2) {
-        margin-left: -90px;
+        margin-left: -30%;
     }
 
     .summaryTop div:nth-child(2) h4:nth-child(1) {
+        width: 200px;
         font-size: 15px;
         font-weight: 700;
         line-height: 25px;
@@ -638,10 +640,11 @@
     }
 
     .summaryTop div:nth-child(2) {
-        margin-left: -90px;
+        margin-left: -10%;
     }
 
     .summaryTop div:nth-child(2) h4:nth-child(1) {
+        width: 100px;
         font-size: 15px;
         font-weight: 700;
         line-height: 25px;
