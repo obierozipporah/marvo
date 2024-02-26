@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
     .checkoutContainer {
         background: #FAFAFA;
+        padding-bottom: 40px;
     }
 
     .modalOverlay {
@@ -523,7 +524,7 @@
 @media screen and (min-width: 1024px) {
     .checkoutContainer {
         background: #FAFAFA;
-
+        padding: 40px;
         display: flex;
         justify-content: center;
         gap: 50px;
@@ -565,8 +566,8 @@
     }
 
     .formContainer {
-        width: 52%;
-        margin-top: 80px;
+        min-width: 50%;
+        margin-top: 40px;
         background: #fff;
         border-radius: 8px;
         padding: 20px;
@@ -722,11 +723,12 @@
     /* summary container is here */
     .summaryContainer {
         border-radius: 8px;
-        width: 20%;
-        height: 500px;
-        margin-top: 80px;
+        min-width: 25%;
+        height: 600px;
+        margin-top: 40px;
         background: #fff;
-        padding: 20px;
+        padding: 40px;
+        overflow: auto;
     }
 
     #summary {
@@ -744,7 +746,7 @@
     }
 
     .summaryTop div:nth-child(2) {
-        margin-left: -10%;
+        margin-left: 10%;
     }
 
     .summaryTop div:nth-child(2) h4:nth-child(1) {
