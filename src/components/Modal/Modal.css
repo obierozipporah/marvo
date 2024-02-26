@@ -202,8 +202,9 @@
     }
 
     .orderContainerCenter{
+        border-radius: 8px 0px 0px 8px;
+        height: 140px;
         background: #F1F1F1;
-        border-radius: 8px;
         padding: 20px;
         width: 50%;
     }
@@ -250,6 +251,7 @@
 
     .confirmOrderTotal {
         width: 50%;
+        border-radius: 0px 8px 8px 0px;
         height: 140px;
         background: #000;
         color: #fff;
@@ -294,13 +296,13 @@
 
 @media screen and (min-width: 1024px) {
     .orderContainer {
-        width: 30%;
+        width: 50%;
         height: auto;
         margin: 0 auto;
         padding: 25px;
         margin-top: 60px;
         background: #FFF;
-        border-radius: 8%;
+        border-radius: 8px;
     }
 
     .checkContainer{
@@ -325,6 +327,7 @@
 
     .orderImage img {
         width: 60px;
+        margin-left: -15%;
     }
 
     .orderContainerTop h1 {
@@ -346,6 +349,7 @@
     }
 
     .orderCenterContainer {
+        border-radius: 8px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -353,8 +357,9 @@
     }
 
     .orderContainerCenter{
+        height: 140px;
         background: #F1F1F1;
-        border-radius: 8px;
+        border-radius: 8px 0px 0px 8px;
         padding: 20px;
         width: 50%;
     }
@@ -365,12 +370,15 @@
     }
 
     .orderContentTop h3:nth-of-type(1) {
+        width: 150px;
+        margin-left: -10%;
         font-size: 15px;
         font-weight: 700;
         line-height: 25px
     }
 
     .orderContentTop h3:nth-of-type(2) {
+        margin-left: -10%;
         font-size: 14px;
         font-weight: 700;
         line-height: 25px;
@@ -382,13 +390,14 @@
         font-weight: 700;
         line-height: 25px;
         opacity: 0.5;
+        margin-left: -15%;
     }
 
     hr {
         margin: 0 auto;
         width: 190px;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
     }
 
     .orderContentBottom {
@@ -403,6 +412,7 @@
         width: 50%;
         height: 140px;
         background: #000;
+        border-radius: 0px 8px 8px 0px;
         color: #fff;
         display: flex;
         flex-direction: column;
