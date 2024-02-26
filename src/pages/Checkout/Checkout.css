@@ -3,6 +3,27 @@
         background: #FAFAFA;
     }
 
+    .modalOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modalOpen {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 8px;
+        top: 100%;
+        left: 7%;
+        width: 85%;
+        z-index: 100;
+    }
+
     #checkoutBack {
         width: 200px;
         font-size: 15px;
@@ -204,6 +225,27 @@
     .checkoutContainer {
         background: #FAFAFA;
         padding: 10px;
+    }
+
+    .modalOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modalOpen {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 8px;
+        top: 100%;
+        left: 7%;
+        width: 85%;
+        z-index: 100;
     }
 
     #checkoutBack {
@@ -461,6 +503,27 @@
         gap: 50px;
 
         position: relative;
+    }
+
+    .modalOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modalOpen {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 8px;
+        top: 100%;
+        left: 7%;
+        width: 85%;
+        z-index: 100;
     }
 
     #checkoutBack {
