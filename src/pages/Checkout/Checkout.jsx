@@ -2,9 +2,20 @@ import React, {useState} from 'react'
 import "./Checkout.css"
 import summaryImage from "/resources/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
 import shape from "../../../resources/assets/shared/desktop/shape.svg"
-import {useCart} from "../../components/CartContext/CartContext"
+import Modal from "../../components/Modal/Modal"
+import { useCart } from "../../components/CartContext/CartContext"
 
 const Checkout = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false)
+
+    const toggleModal = () => {
+        setIsModalOpen(prevIsModalOpen => !prevIsModalOpen)
+    }
+
+    const stopPropagation = (e) => {
+        e.stopPropagation()
+    }
     
     const { cartProducts, getTotalCost } = useCart();
 
@@ -220,8 +231,16 @@ const Checkout = () => {
                         <h3>${grandTotal.toFixed(2)}</h3>
                     </div>
                 </div>
-                <div className="formBtn">
+                <div className="formBtn" onClick={toggleModal}>
+                    {
+                        isModalOpen && (
+                            <div className='modalOverlay'></div>
+                        )
+                    }
                     <button type='submit' form='checkoutForm'>CONTINUE & PAY</button>
+                    <div className={`modalOpen ${isModalOpen? 'show' : ''}`}>
+                        {isModalOpen && <Modal />}
+                    </div>
                 </div>
             </div>
     </section>
