@@ -100,6 +100,10 @@
         letter-spacing: -0.21px;
     }
 
+    input[type="radio"] {
+        accent-color: #D87D4A;
+    }
+
     #eMoney + label {
         display: inline-block;
         margin-left: 20px;
@@ -107,6 +111,13 @@
 
     #cod + label {
         display: inline-block;
+        margin-left: 20px;
+    }
+
+    #eMoney,
+    #cod {
+        height: 100%;
+        margin-top: 10px;
         margin-left: 20px;
     }
 
@@ -348,17 +359,32 @@
         grid-column: 1;
     }
 
-    #eMoney + label {
+    #eMoney + label,
+    #cod + label {
         display: inline-block;
         margin-left: 20px;
+        margin-top: 11px;
     }
 
     .eMoney,
     .cod {
+        display: flex;
+        height: 50px;
+        align-items: center;
         border-radius: 8px;
-        margin-top: 10px;
         background: #FFF;
         border: 1px solid #CFCFCF;
+    }
+
+    input[type="radio"] {
+        accent-color: #D87D4A;
+    }
+
+    #eMoney,
+    #cod {
+        height: 100%;
+        margin-top: 30px;
+        margin-left: 20px;
     }
 
     #cod + label {
@@ -632,17 +658,32 @@
         grid-column: 1;
     }
 
-    #eMoney + label {
+    #eMoney + label,
+    #cod + label {
         display: inline-block;
         margin-left: 20px;
+        margin-top: 11px;
+    }
+
+    input[type="radio"] {
+        accent-color: #D87D4A;
     }
 
     .eMoney,
     .cod {
+        display: flex;
+        height: 50px;
+        align-items: center;
         border-radius: 8px;
-        margin-top: 10px;
         background: #FFF;
         border: 1px solid #CFCFCF;
+    }
+
+    #eMoney,
+    #cod {
+        height: 100%;
+        margin-top: 30px;
+        margin-left: 20px;
     }
 
     #cod + label {
