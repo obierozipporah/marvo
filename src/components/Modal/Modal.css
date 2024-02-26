@@ -1,13 +1,12 @@
 @media screen and (max-width: 767px) {
     .orderContainer {
-        border: 1px solid red;
         width: 85%;
         height: auto;
         margin: 0 auto;
         padding: 25px;
         margin-top: 60px;
         background: #FFF;
-        border-radius: 8%;
+        border-radius: 8px;
     }
 
     .checkContainer{
@@ -46,6 +45,10 @@
         line-height: 25px;
         opacity: 0.5;
         margin-bottom: 20px;
+    }
+
+    .orderImage img {
+        width: 60px;
     }
 
     .orderContainerCenter{
@@ -167,6 +170,10 @@
         position: absolute;
         top: 18%;
         left: 11%;
+    }
+
+    .orderImage img {
+        width: 60px;
     }
 
     .orderContainerTop h1 {
@@ -314,6 +321,10 @@
         position: absolute;
         top: 18%;
         left: 11%;
+    }
+
+    .orderImage img {
+        width: 60px;
     }
 
     .orderContainerTop h1 {
