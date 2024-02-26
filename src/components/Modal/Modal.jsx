@@ -14,7 +14,9 @@ const Modal = () => {
     // get the rest of the items in the cart
     const additionalItems = cartProducts.slice(1)
 
-
+    const shipping = getTotalCost() * 0.005
+    const vat = getTotalCost() * 0.15
+    const grandTotal = getTotalCost() + vat + shipping
 
   return (
     <section className="modalOverlay">
@@ -49,7 +51,7 @@ const Modal = () => {
                 </div>
                 <div className='confirmOrderTotal'>
                     <h3>GRAND TOTAL</h3>
-                    <h3>${getTotalCost()}</h3>
+                    <h3>${grandTotal.toFixed(2)}</h3>
                 </div>
             </div>
             <div className='orderTotalBtn'>
