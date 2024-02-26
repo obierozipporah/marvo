@@ -2,9 +2,15 @@ import React, {useState} from 'react'
 import "./Checkout.css"
 import summaryImage from "/resources/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
 import shape from "../../../resources/assets/shared/desktop/shape.svg"
+import {useCart} from "../../components/CartContext/CartContext"
 
 const Checkout = () => {
     
+    const { cartProducts, getTotalCost } = useCart();
+
+    const shipping = getTotalCost() * 0.005
+    const vat = getTotalCost() * 0.15
+    const grandTotal = getTotalCost() + vat + shipping;
 
     const [formData, setFormData] = useState({
         fullName: "",
@@ -187,30 +193,31 @@ const Checkout = () => {
         {/* Form ends here */}
         <div className='summaryContainer'>
                 <h2 id='summary'>Summary</h2>
+                {cartProducts.map((cartProduct) => (
                 <div className='summaryTop'>
-                    <img src={summaryImage} alt="" width={100}/>
+                    <img src={cartProduct.categoryImage.mobile} alt="" width={100}/>
                     <div>
-                        <h4>XX99 MK II</h4>
-                        <h4>$2,999</h4>
+                        <h4>{cartProduct.name}</h4>
+                        <h4>${cartProduct.price}</h4>
                     </div>
-                    <h4>x1</h4>
-                </div>
+                    <h4>x{cartProduct.quantity}</h4>
+                </div>))}
                 <div className="summaryBottom">
                     <div>
                         <h3>TOTAL</h3>
-                        <h3>$2,999</h3>
+                        <h3>${getTotalCost().toLocaleString()}</h3>
                     </div>
                     <div>
                         <h3>SHIPPING</h3>
-                        <h3>$50</h3>
+                        <h3>${shipping.toFixed(2)}</h3>
                     </div>
                     <div>
                         <h3>VAT (INCLUDED)</h3>
-                        <h3>$1,079</h3>
+                        <h3>${vat.toFixed(2)}</h3>
                     </div>
                     <div>
                         <h3>GRAND TOTAL</h3>
-                        <h3>$2,999</h3>
+                        <h3>${grandTotal.toFixed(2)}</h3>
                     </div>
                 </div>
                 <div className="formBtn">
