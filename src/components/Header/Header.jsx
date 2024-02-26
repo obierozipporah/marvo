@@ -22,7 +22,7 @@ const Header = ( {activeLinks} ) => {
     setIsCartOpen(!isCartOpen)
   }
 
-  // add a function to stop
+  // add a function to stop propagation
   const stopPropagation = (e) => {
     e.stopPropagation()
   }
