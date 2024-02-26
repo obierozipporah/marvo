@@ -1,9 +1,20 @@
 import React, { useState } from 'react'
 import "./Modal.css"
 import { FaCheck } from "react-icons/fa6";
-import orderImage from "/resources/assets/cart/image-xx99-mark-two-headphones.jpg"
+import { useCart } from '../CartContext/CartContext';
+import { Link } from 'react-router-dom';
 
 const Modal = () => {
+
+    // import the cart context into the component
+    const {cartProducts, getTotalCost} = useCart()
+
+    // get the first item from the cart
+    const firstCartItem = cartProducts.length > 0 ? cartProducts[0] : null;
+    // get the rest of the items in the cart
+    const additionalItems = cartProducts.slice(1)
+
+
 
   return (
     <section className="modalOverlay">
@@ -22,25 +33,29 @@ const Modal = () => {
             <div className="orderCenterContainer">
                 <div className='orderContainerCenter'>
                     <div className='orderContainerContent'>
-                        <img src={orderImage} alt="" width={50}/>
-                        <div className='orderContentTop'>
-                            <h3>XX99 MK 11</h3>
-                            <h3>$ 2,999</h3>
+                        <div className="orderImage">
+                            <img src={firstCartItem?.image?.mobile} alt="" />
                         </div>
-                        <h3 id='orderQuantity'>x1</h3>
+                        <div className='orderContentTop'>
+                            <h3>{firstCartItem?.name}</h3>
+                            <h3>${firstCartItem?.price.toLocaleString()}</h3>
+                        </div>
+                        <h3 id='orderQuantity'>x{firstCartItem?.quantity}</h3>
                     </div>
                     <hr />
                     <div className='orderContentBottom'>
-                        <p>and 2 other item(s)</p>
+                        {additionalItems.length > 0 && (<p>and {additionalItems.length} other {additionalItems.length > 0 ? "items" : "item"}</p>)}
                     </div>
                 </div>
                 <div className='confirmOrderTotal'>
                     <h3>GRAND TOTAL</h3>
-                    <h3>$5,446</h3>
+                    <h3>${getTotalCost()}</h3>
                 </div>
             </div>
             <div className='orderTotalBtn'>
-                <button>BACK TO HOME</button>
+                <Link to="/">
+                    <button>BACK TO HOME</button>
+                </Link>
             </div>
         </div>
     </section>
