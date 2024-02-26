@@ -6,8 +6,13 @@ import { NavLink, Link } from 'react-router-dom';
 import Menu from "../ProductsCard/ProductsCard"
 import Cart from '../Cart/Cart';
 import logo from "../../../resources/assets/shared/desktop/logo.svg"
+import { useCart } from '../CartContext/CartContext';
 
 const Header = ( {activeLinks} ) => {
+
+  const {cartProducts} = useCart()
+
+  console.log(cartProducts,length);
 
   // create state for the mobile menu
   const [openMenu, setOpenMenu] = useState(false);
@@ -74,6 +79,7 @@ const Header = ( {activeLinks} ) => {
             </NavLink>
           </nav>
           <div onClick={toggleCart}>
+            <div id='cartProductsLength'>{cartProducts.length}</div>
             <BsCart  className='cart'/>
             {
                 isCartOpen && (
