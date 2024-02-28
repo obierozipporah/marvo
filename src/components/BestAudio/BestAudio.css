@@ -2,8 +2,9 @@
     .bestWrapper {
         margin: 0 auto;
         width: 85%;
-        height: 698px;
-        margin-top: 50px;
+        height: auto;
+        margin-top: 20px;
+        padding-bottom: 80px;
     }
 
     .bestImg {
@@ -99,6 +100,7 @@
         margin-top: 150px;
         display: flex;
         gap: 8%;
+        padding-bottom: 100px;
     }
 
     .bestImg {
