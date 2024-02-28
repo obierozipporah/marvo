@@ -6,8 +6,9 @@ import { Link, useNavigate } from 'react-router-dom'
 
 const Cart = () => {
 
+    // this handles the navigation to the 
+    // checkout page from the cart
     const navigate = useNavigate()
-
     const handleCheckout = () => {
         navigate("/checkout")
     }
