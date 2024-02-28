@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the Audiophile e-commerce web store project. I completed this project as part of my training in the Azubi Africa Frontend Development program. The brief in this project was to build the user facing side of an e-commerce store that sells audio equipment. We were tasked with building the frontend of this project according to the specifications given in a Figma design file.
+Welcome to the Audiophile e-commerce web store project. I completed this project as part of my training in the Azubi Africa Frontend Development program. The brief in this project was to build the user facing side of an e-commerce store that sells audio equipment. I was tasked with building the frontend of this project according to the specifications given in a Figma design file.
 
 The project has been deployed on Vercel [here](https://audiophile-ecommerce-project-delta.vercel.app/)
 
@@ -42,4 +42,16 @@ Once the user has clicked the "continue and pay? button a modal confirming their
 
 ![modal](public/readme_files/modal.png)
 
+### What I learned during the project
 
+This project challenged my React and JavaScript skills. I was tasked with building multiple pages and also adding functionality to the cart. This was the most challenging aspect of the project. I also had to ensure that all the client-side routing worked properly. I was able to meet the challenge of the project and reproduce the design file accurately.
+
+### Contact
+
+![gmail_badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
+wilsonsiawse@gmail.com
+
+![linkedin_badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+
+Wilson Siaw
