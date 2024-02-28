@@ -51,7 +51,7 @@ const Modal = () => {
                 </div>
                 <div className='confirmOrderTotal'>
                     <h3>GRAND TOTAL</h3>
-                    <h3>${grandTotal.toFixed(2)}</h3>
+                    <h3>${grandTotal.toLocaleString()}</h3>
                 </div>
             </div>
             <div className='orderTotalBtn'>
