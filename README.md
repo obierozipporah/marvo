@@ -16,7 +16,7 @@ The project has been deployed on Vercel [here](https://audiophile-ecommerce-proj
 
 ![vercel_badge](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-### Features of the project
+### Major features of the project
 
 The project incoporates multiple pages. There a individual product pages that a user can browse to find either headphones, speakers or earphones. The image below shows the product page for headphones.
 
@@ -30,7 +30,16 @@ In addition to the features above the application allows users to get a detailed
 
 ![product_details_page](public/readme_files/product_details_page.png)
 
-The gif below shows how the user interacts with the product details page and cart.
+The project also has a cart that users can interact with. The cart allows users to keep track of all products they have ordered from the store.
 
-![gif]([text](https://giphy.com/embed/ohgb1AaOYN30iFP7vl))
+![cart](public/readme_files/cart.png)
+
+When the user clicks the "checkout" button in the cart they are taken to the checkout page below which has a form that allows users to enter their information.
+
+![checkout](public/readme_files/checkout.png)
+
+Once the user has clicked the "continue and pay? button a modal confirming their order pops up from where they can return to the homepage.
+
+![modal](public/readme_files/modal.png)
+
 
