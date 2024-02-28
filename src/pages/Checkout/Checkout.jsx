@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import "./Checkout.css"
-import summaryImage from "/resources/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
+import { Link } from 'react-router-dom'
 import shape from "../../../resources/assets/shared/desktop/shape.svg"
 import Modal from "../../components/Modal/Modal"
 import { useCart } from "../../components/CartContext/CartContext"
@@ -55,7 +55,9 @@ const Checkout = () => {
 
   return (
     <section className='checkoutContainer'>
-        <h3 id='checkoutBack'>Go back</h3>
+        <Link to="/">
+            <h3 id='checkoutBack'>Go back</h3>
+        </Link>
         {/* Form starts here */}
         <form action="" className='formContainer' onSubmit={handleSubmit} id='checkoutForm'>
             <h1>Checkout</h1>
