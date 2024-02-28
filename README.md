@@ -32,5 +32,5 @@ In addition to the features above the application allows users to get a detailed
 
 The gif below shows how the user interacts with the product details page and cart.
 
-![gif](https://giphy.com/embed/ohgb1AaOYN30iFP7vl)
+![gif]([text](https://giphy.com/embed/ohgb1AaOYN30iFP7vl))
 
