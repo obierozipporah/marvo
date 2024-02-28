@@ -226,11 +226,11 @@ const Checkout = () => {
                     </div>
                     <div>
                         <h3>VAT (INCLUDED)</h3>
-                        <h3>${vat.toFixed(2)}</h3>
+                        <h3>${vat.toLocaleString()}</h3>
                     </div>
                     <div>
                         <h3>GRAND TOTAL</h3>
-                        <h3>${grandTotal.toFixed(2)}</h3>
+                        <h3>${grandTotal.toLocaleString()}</h3>
                     </div>
                 </div>
                 <div className="formBtn" onClick={toggleModal}>
