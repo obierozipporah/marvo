@@ -26,6 +26,8 @@
     }
 
     #checkoutBack {
+        text-decoration: none;
+        color: #000;
         width: 200px;
         font-size: 15px;
         font-weight: 400;
@@ -261,7 +263,9 @@
     }
 
     #checkoutBack {
-        width: 200px;
+        text-decoration: none;
+        color: #000;
+        width: 100px;
         font-size: 15px;
         font-weight: 400;
         line-height: 25px; 
@@ -527,7 +531,7 @@
         padding: 40px;
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 4%;
 
         position: relative;
     }
@@ -554,6 +558,8 @@
     }
 
     #checkoutBack {
+        text-decoration: none;
+        color: #000;
         height: 50px;
         font-size: 15px;
         line-height: 25px;
@@ -566,7 +572,8 @@
     }
 
     .formContainer {
-        min-width: 50%;
+        min-width: 53%;
+        margin-left: -4%;
         margin-top: 40px;
         background: #fff;
         border-radius: 8px;
@@ -723,8 +730,8 @@
     /* summary container is here */
     .summaryContainer {
         border-radius: 8px;
-        min-width: 25%;
-        height: 600px;
+        min-width: 21%;
+        height: 500px;
         margin-top: 40px;
         background: #fff;
         padding: 40px;
