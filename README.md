@@ -1,9 +1,9 @@
-# React + Vite
+# Audiophile E-commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![homepage_hero](public/readme_files/home_hero.png)
 
-Currently, two official plugins are available:
+## Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# audiophile_ecommerce_project
+Welcome to the Audiophile e-commerce web store project. I completed this project as part of my training in the Azubi Africa Frontend Development program. The brief in this project was to build the user facing side of an e-commerce store that sells audio equipment. We were tasked with building the user interface according to the specifications given in a Figma design file.
+
+The project has been deployed on Vercel [here](https://audiophile-ecommerce-project-delta.vercel.app/)
