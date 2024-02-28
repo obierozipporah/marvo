@@ -7,7 +7,6 @@ import ProductDetails from './pages/ProductDetails/ProductDetails'
 import Checkout from "./pages/Checkout/Checkout"
 import ProductPage from './pages/ProductPage/ProductPage'
 import { CartProvider } from './components/CartContext/CartContext'
-import Modal from "./components/Modal/Modal"
 
 function App() {
 
@@ -26,7 +25,6 @@ function App() {
             <Route path='/:category' element={<ProductPage/>}/>
             <Route path='/:category/:id' element={<ProductDetails/>}/>
             <Route path='/checkout' element={<Checkout />}/>
-            <Route path='/modal' element={<Modal />}/>
           </Route>
         </Routes>
       </CartProvider>
