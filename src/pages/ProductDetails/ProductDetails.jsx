@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import "./ProductDetails.css"
-import data from "../../../resources/data.json"
+import data from "../../../public/resources/data.json"
 import { useParams, Link } from 'react-router-dom'
 import ProductsCard from "../../components/ProductsCard/ProductsCard"
 import BestAudio from "../../components/BestAudio/BestAudio"

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./ProductPage.css"
 import { useParams, Link } from 'react-router-dom'
-import data from "../../../resources/data.json"
+import data from "../../../public/resources/data.json"
 import BestAudio from '../../components/BestAudio/BestAudio'
 import ProductsCard from '../../components/ProductsCard/ProductsCard'
 

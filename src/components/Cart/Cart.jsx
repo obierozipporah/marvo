@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Cart.css"
-import cartImage from "/resources/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
+import cartImage from "../../../public/resources/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
 import { useCart } from '../CartContext/CartContext'
 import { Link, useNavigate } from 'react-router-dom'
 

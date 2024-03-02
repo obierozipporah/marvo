@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Zx9.css"
-import speaker from "../../../resources/assets/home/desktop/image-speaker-zx9.png"
-import circle from "../../../resources/assets/home/mobile/pattern-circles.svg"
+import speaker from "../../../public/resources/assets/home/desktop/image-speaker-zx9.png"
+import circle from "../../../public/resources/assets/home/mobile/pattern-circles.svg"
 import { Link } from 'react-router-dom'
 
 

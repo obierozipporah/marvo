@@ -1,7 +1,7 @@
 import React from 'react'
-import headphones from "../../../resources/assets/home/mobile/image-product2.png"
-import speaker from "../../../resources/assets/home/mobile/image-speaker-zx9.png"
-import earphones from "../../../resources/assets/home/mobile/image-product -earphones.png"
+import headphones from "../../../public/resources/assets/home/mobile/image-product2.png"
+import speaker from "../../../public/resources/assets/home/mobile/image-speaker-zx9.png"
+import earphones from "../../../public/resources/assets/home/mobile/image-product -earphones.png"
 import "./ProductsCard.css"
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-router-dom'

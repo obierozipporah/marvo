@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "./Checkout.css"
 import { Link } from 'react-router-dom'
-import shape from "../../../resources/assets/shared/desktop/shape.svg"
+import shape from "../../../public/resources/assets/shared/desktop/shape.svg"
 import Modal from "../../components/Modal/Modal"
 import { useCart } from "../../components/CartContext/CartContext"
 

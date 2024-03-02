@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Footer.css"
 import { Link } from 'react-router-dom'
-import logo from "../../../resources/assets/shared/desktop/logo.svg"
-import facebookIcon from "../../../resources/assets/shared/desktop/icon-facebook.svg"
-import InstagramIcon from "../../../resources/assets/shared/desktop/icon-instagram.svg"
-import twitterIcon from "../../../resources/assets/shared/desktop/icon-twitter.svg"
+import logo from "../../../public/resources/assets/shared/desktop/logo.svg"
+import facebookIcon from "../../../public/resources/assets/shared/desktop/icon-facebook.svg"
+import InstagramIcon from "../../../public/resources/assets/shared/desktop/icon-instagram.svg"
+import twitterIcon from "../../../public/resources/assets/shared/desktop/icon-twitter.svg"
 import { NavLink } from 'react-router-dom'
 
 const Footer = ( {activeLinks} ) => {
