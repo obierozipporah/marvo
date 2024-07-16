@@ -8,6 +8,7 @@ import Checkout from "./pages/Checkout/Checkout"
 import ProductPage from './pages/ProductPage/ProductPage'
 import { CartProvider } from './components/CartContext/CartContext'
 
+
 function App() {
 
   const location = useLocation();
@@ -25,6 +26,7 @@ function App() {
             <Route path='/:category' element={<ProductPage/>}/>
             <Route path='/:category/:id' element={<ProductDetails/>}/>
             <Route path='/checkout' element={<Checkout />}/>
+          
           </Route>
         </Routes>
       </CartProvider>

@@ -2,7 +2,7 @@ import React from 'react'
 import "./ProductPage.css"
 import { useParams, Link } from 'react-router-dom'
 import data from "../../../public/resources/data.json"
-import BestAudio from '../../components/BestAudio/BestAudio'
+import BestLaptop from '../../components/BestLaptop/BestLaptop'
 import ProductsCard from '../../components/ProductsCard/ProductsCard'
 
 const ProductPage = () => {
@@ -46,7 +46,7 @@ const ProductPage = () => {
             {productElement}
         </div>
         <ProductsCard />
-        <BestAudio />
+        <BestLaptop />
     </section>
   )
 }

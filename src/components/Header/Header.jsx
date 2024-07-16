@@ -8,6 +8,7 @@ import Cart from '../Cart/Cart';
 import logo from "../../../public/resources/assets/shared/desktop/logo.svg"
 import { useCart } from '../CartContext/CartContext';
 
+
 const Header = ( {activeLinks} ) => {
 
   const {cartProducts} = useCart()
@@ -60,22 +61,28 @@ const Header = ( {activeLinks} ) => {
               HOME
             </NavLink>
             <NavLink
-              to="/headphones"
+              to="/hp"
               style={({ isActive }) => isActive ? activeLinks : null}
             >
-              HEADPHONES
+              HP
             </NavLink>
             <NavLink
-              to="/speakers"
+              to="/dell"
               style={({ isActive }) => isActive ? activeLinks : null}
             >
-              SPEAKERS
+              DELL
             </NavLink>
             <NavLink
-              to="/earphones"
+              to="/mac"
               style={({ isActive }) => isActive ? activeLinks : null}
             >
-              EARPHONES
+              MAC
+            </NavLink>
+            <NavLink
+              to="/lenovo"
+              style={({ isActive }) => isActive ? activeLinks : null}
+            >
+              LENOVO
             </NavLink>
           </nav>
           <div onClick={toggleCart}>

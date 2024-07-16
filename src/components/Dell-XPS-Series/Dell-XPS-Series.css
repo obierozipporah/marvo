@@ -1,0 +1,136 @@
+@media screen and (max-width: 767px) {
+    .Dell-XPS-SeriesWrapper {
+        margin: 0 auto;
+        width: 85%;
+        height: 350px;
+        margin-top: 50px;
+        border-radius: 8px;
+
+        background-image: url("../../../resources/assets/home/mobile/image-dell-xps-series.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        position: relative;
+    }
+
+    .Dell-XPS-SeriesContent {
+        width: 210px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .Dell-XPS-SeriesContent h2 {
+        font-style: normal;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+    .Dell-XPS-SeriesBtn button {
+        padding: 10px 20px;
+        border: 1px solid #000;
+        background: transparent;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Dell-XPS-SeriesWrapper {
+        margin: 0 auto;
+        width: 90%;
+        height: 350px;
+        margin-top: 50px;
+        border-radius: 8px;
+
+        background-image: url("../../../resources/assets/home/tablet/image-dell-xps-series.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        position: relative;
+    }
+
+    .Dell-XPS-SeriesContent {
+        width: 210px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .Dell-XPS-SeriesContent h2 {
+        font-style: normal;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+    .Dell-XPS-SeriesBtn button {
+        padding: 10px 20px;
+        border: 1px solid #000;
+        background: transparent;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Dell-XPS-SeriesWrapper {
+        margin: 0 auto;
+        width: 75%;
+        height: 400px;
+        margin-top: 50px;
+        border-radius: 8px;
+
+        background-image: url("../../../resources/assets/home/desktop/image-dell-xps-series.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        position: relative;
+    }
+
+    .Dell-XPS-SeriesContent {
+        width: 210px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .Dell-XPS-SeriesContent h2 {
+        font-style: normal;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+    .Dell-XPS-SeriesBtn button {
+        padding: 10px 20px;
+        border: 1px solid #000;
+        background: transparent;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    .Dell-XPS-SeriesBtn button:hover {
+        background-color: #000;
+        color: #fff;
+    }
+}

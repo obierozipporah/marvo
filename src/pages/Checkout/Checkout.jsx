@@ -32,8 +32,8 @@ const Checkout = () => {
         city: "",
         country: "",
         paymentMethod: "",
-        eMoneyNumber: "",
-        eMoneyPin: ""
+        pin: "",
+        amount: ""
     })
 
     // console.log(formData)
@@ -48,10 +48,32 @@ const Checkout = () => {
         })
     }
 
+    const handlePayNow = () => {
+        const paymentMethod = prompt("Choose a payment method: M-Pesa, PayPal, or Visa");
+        if (paymentMethod && (paymentMethod === 'M-Pesa' || paymentMethod === 'PayPal' || paymentMethod ==='Visa')) {
+            setFormData(prevFormData => ({
+               ...prevFormData,
+               paymentMethod: paymentMethod 
+            }));
+        } else {
+            alert("Invalid payment method selected. Please choose m-pesa, paypal, or visa");
+        }
+    };
+
     const handleSubmit = (event) => {
         event.preventDefault()
+        const { paymentMethod, pin, amount } = formData;
+
+        if (paymentMethod == 'Cash on Delivery') {
+            alert(`Payment method selected: ${paymentMethod}. Amount to be paid on delivery: ${amount}`);
+        } else if (paymentMethod && pin && amount){
+            alert(`${paymentMethod} payment of ${amount} confirmed ith PIN: ${pin}`);
+        }else {
+            alert("All fields are required!");
+        }
         console.log(formData)
     }
+
 
   return (
     <section className='checkoutContainer'>
@@ -61,6 +83,8 @@ const Checkout = () => {
         {/* Form starts here */}
         <form action="" className='formContainer' onSubmit={handleSubmit} id='checkoutForm'>
             <h1>Checkout</h1>
+
+        <fieldset>
             <legend>BILLING DETAILS</legend>
             <div className="billingDetails">
                 <div>
@@ -138,61 +162,91 @@ const Checkout = () => {
                 onChange={handleChange}
                 value={formData.country} 
             />
-            
+        </fieldset>
+
+        <fieldset>  
             <legend>PAYMENT DETAILS</legend>
                 <div className="paymentMethod">
                     <legend>Payment Method</legend>
                     <div className="paymentOptions">
-                        <div className='eMoney'>
+                        <div className='payNow'>
                             <input
                                 type="radio"
-                                id="eMoney"
+                                id="payNow"
                                 name="paymentMethod"
-                                onChange={handleChange}
-                                value="e-Money"
-                                checked={formData.paymentMethod === "e-Money"}
+                                onChange={() => setFormData(prevFormData => ({ ...prevFormData, paymentMethod: 'Pay Now '}))}
+                                value="Pay Now"
+                                checked={formData.paymentMethod === "Pay Now"}
                             />
-                            <label htmlFor="eMoney">e-Money</label>
+                            <label htmlFor="payNow">Pay Now</label>
                         </div>
+
                         <br />
-                        <div className='cod'>
+                        <div className='payOnDelivery'>
                             <input
                                 type="radio"
-                                id="cod"
+                                id="payOnDelivery"
                                 name="paymentMethod"
-                                onChange={handleChange}
-                                value="Cash on Delivery"
-                                checked={formData.paymentMethod === "Cash on Delivery"}
+                                onChange={() => setFormData(prevFormData => ({ ...prevFormData, paymentMethod: 'Pay on Delivery' }))}
+                                value="Pay on Delivery"
+                                checked={formData.paymentMethod === "Pay on Delivery"}
                             />
-                            <label htmlFor="cod">Cash on Delivery</label>
+                            <label htmlFor="payOnDelivery">Pay on Delivery</label>
                         </div>
                     </div>
                     <br />
                 </div>
 
-            <div className="accounts">
-                <div>
-                    <label htmlFor="eMoneyNumber">e-Money Number</label>
-                    <input
-                        type="number"
-                        id='eMoneyNumber'
-                        name="eMoneyNumber"
-                        onChange={handleChange}
-                        value={formData.eMoneyNumber}
-                    />
-                </div>
-                <div>
-                    <label htmlFor="eMoneyPin">e-Money PIN</label>
-                    <input
-                        type="number"
-                        id='eMoneyPin'
-                        name="eMoneyPin"
-                        onChange={handleChange}
-                        value={formData.eMoneyPin}
-                    />
-                </div>
-            </div>
+        {formData.paymentMethod === 'Pay Now' && (
+                    <div className="accounts">
+                        <button type="button" onClick={handlePayNow}>Choose Payment Method</button>
+                        {formData.paymentMethod && formData.paymentMethod !== 'Pay on Delivery' && (
+                            <>
+                                <div>
+                                    <label htmlFor="pin">PIN</label>
+                                    <input
+                                        type='password'
+                                        id="pin"
+                                        name="pin"
+                                        value={formData.pin}
+                                        onChange={handleChange}
+                                        required
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="amount">Amount</label>
+                                    <input
+                                        type='number'
+                                        id="amount"
+                                        name="amount"
+                                        value={formData.amount}
+                                        onChange={handleChange}
+                                        required
+                                        
+                                    />
+                                    </div>
+                                </>
+                        )}
+                        </div>
+        )}
+                
+                     {formData.paymentMethod === 'Pay on Delivery' && (
+                        <div className="accounts">
+                            <div>
+                                <input
+                                    type='number'
+                                    id="amount"
+                                    name="amount"
+                                    value={formData.amount}
+                                    onChange={handleChange}
+                                    required
+                                 />           
+                            </div>
+                        </div>
+                     )};
 
+                     <button type="submit">Confirm Order</button>
+        
             <div className="checkoutPara">
                 <img src={shape} alt="" />
                 <p>
@@ -202,7 +256,9 @@ const Checkout = () => {
                     will not be cancelled.
                 </p>
             </div>
+            </fieldset>
         </form>
+
         {/* Form ends here */}
         <div className='summaryContainer'>
                 <h2 id='summary'>Summary</h2>

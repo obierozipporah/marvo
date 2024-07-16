@@ -3,7 +3,7 @@ import "./ProductDetails.css"
 import data from "../../../public/resources/data.json"
 import { useParams, Link } from 'react-router-dom'
 import ProductsCard from "../../components/ProductsCard/ProductsCard"
-import BestAudio from "../../components/BestAudio/BestAudio"
+import BestLaptop from "../../components/BestLaptop/BestLaptop"
 import { useCart } from '../../components/CartContext/CartContext'
 
 const ProductDetails = () => {
@@ -132,7 +132,7 @@ const ProductDetails = () => {
           {productElement}
         </div>
         <ProductsCard />
-        <BestAudio />
+        <BestLaptop />
     </section>
   )
 }

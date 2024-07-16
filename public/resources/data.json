@@ -1,23 +1,363 @@
 [
     {
       "id": 1,
-      "slug": "yx1-earphones",
-      "name": "YX1 Wireless Earphones",
+      "slug": "Lenovo-Thinkpad",
+      "name": "Lenovo-Thinkpad",
       "image": {
-        "mobile": "/resources/assets/product-yx1-earphones/mobile/image-product.jpg",
-        "tablet": "/resources/assets/product-yx1-earphones/tablet/image-product.jpg",
-        "desktop": "/resources/assets/product-yx1-earphones/desktop/image-product.jpg"
+        "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-product.jpg",
+        "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-product.jpg",
+        "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-product.jpg"
       },
-      "category": "earphones",
+      "category": "lenovo",
       "categoryImage": {
-        "mobile": "/resources/assets/product-yx1-earphones/mobile/image-category-page-preview.jpg",
-        "tablet": "/resources/assets/product-yx1-earphones/tablet/image-category-page-preview.jpg",
-        "desktop": "/resources/assets/product-yx1-earphones/desktop/image-category-page-preview.jpg"
+        "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-category-page-preview.jpg"
       },
       "new": true,
       "price": 599,
-      "description": "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
-      "features": "Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.\n\nThe YX1 Wireless Earphones features customizable controls for volume, music, calls, and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.",
+      "description": "Tailor your listening experience with bespoke dynamic drivers from the new Lenovo-Thinkpad Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+      "features": "Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.\n\nThe Lenovo-Thinkpad Wireless Earphones features customizable controls for volume, music, calls, and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.",
+      "includes": [
+        {
+          "quantity": 2,
+          "item": "Lenovo-Thinkpad Laptop"
+        },
+        {
+          "quantity": 6,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 1,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+        
+      ],
+      "gallery": {
+        "first": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "xx99-mark-one-headphones",
+          "name": "XX99 Mark I",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+          }
+        },
+        {
+          "slug": "xx59-headphones",
+          "name": "XX59",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx59-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx59-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx59-headphones.jpg"
+          }
+        },
+        {
+          "slug": "Hp-Elitebook-speaker",
+          "name": "Hp-Elitebook Speaker",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-Hp-Elitebook-speaker.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-Hp-Elitebook-speaker.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-Hp-Elitebook-speaker.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "Lenovo-Ideapad",
+      "name": "Lenovo-Ideapad",
+      "image": {
+        "mobile": "/resources/assets/lenovo-ideapad/mobile/image-product.jpg",
+        "tablet": "/resources/assets/lenovo-ideapad/tablet/image-product.jpg",
+        "desktop": "/resources/assets/lenovo-ideapad/desktop/image-product.jpg"
+      },
+      "category": "lenovo",
+      "categoryImage": {
+        "mobile": "/resources/assets/lenovo-ideapad/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/lenovo-ideapad/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/lenovo-ideapad/desktop/image-category-page-preview.jpg"
+      },
+      "new": true,
+      "price": 599,
+      "description": "Tailor your listening experience with bespoke dynamic drivers from the new Lenovo-Thinkpad Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+      "features": "Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.\n\nThe Lenovo-Thinkpad Wireless Earphones features customizable controls for volume, music, calls, and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.",
+      "includes": [
+        {
+          "quantity": 2,
+          "item": "Lenovo-Ideapad Laptop"
+        },
+        {
+          "quantity": 6,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 1,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+       
+      ],
+      "gallery": {
+        "first": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "xx99-mark-one-headphones",
+          "name": "XX99 Mark I",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+          }
+        },
+        {
+          "slug": "xx59-headphones",
+          "name": "XX59",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx59-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx59-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx59-headphones.jpg"
+          }
+        },
+        {
+          "slug": "Hp-Elitebook-speaker",
+          "name": "Hp-Elitebook Speaker",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-Hp-Elitebook-speaker.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-Hp-Elitebook-speaker.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-Hp-Elitebook-speaker.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "Lenovo-Legion",
+      "name": "Lenovo-Legion",
+      "image": {
+        "mobile": "/resources/assets/lenovo-legion/mobile/image-product.jpg",
+        "tablet": "/resources/assets/lenovo-legion/tablet/image-product.jpg",
+        "desktop": "/resources/assets/lenovo-legion/desktop/image-product.jpg"
+      },
+      "category": "lenovo",
+      "categoryImage": {
+        "mobile": "/resources/assets/lenovo-legion/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/lenovo-legion/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/lenovo-legion/desktop/image-category-page-preview.jpg"
+      },
+      "new": true,
+      "price": 599,
+      "description": "Tailor your listening experience with bespoke dynamic drivers from the new Lenovo-Thinkpad Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+      "features": "Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.\n\nThe Lenovo-Thinkpad Wireless Earphones features customizable controls for volume, music, calls, and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.",
+      "includes": [
+        {
+          "quantity": 2,
+          "item": "Lenovo-Legion Laptop"
+        },
+        {
+          "quantity": 6,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 1,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+       
+      ],
+      "gallery": {
+        "first": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "xx99-mark-one-headphones",
+          "name": "XX99 Mark I",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+          }
+        },
+        {
+          "slug": "xx59-headphones",
+          "name": "XX59",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx59-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx59-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx59-headphones.jpg"
+          }
+        },
+        {
+          "slug": "Hp-Elitebook-speaker",
+          "name": "Hp-Elitebook Speaker",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-Hp-Elitebook-speaker.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-Hp-Elitebook-speaker.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-Hp-Elitebook-speaker.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "MACBOOK-APPLE-A186",
+      "name": "MACBOOK-APPLE-A186",
+      "image": {
+        "mobile": "/resources/assets/macbook-apple-A1286/mobile/image-macbook-apple-A1286.jpg",
+        "tablet": "/resources/assets/macbook-apple-A1286/tablet/image-macbook-apple-A1286.jpg",
+        "desktop": "/resources/assets/macbook-apple-A1286/desktop/image-macbook-apple-A1286.jpg"
+      },
+      "category": "mac",
+      "categoryImage": {
+        "mobile": "/resources/assets/macbook-apple-A1286/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/macbook-apple-A1286/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/macbook-apple-A1286/desktop/image-category-page-preview.jpg"
+      },
+      "new": true,
+      "price": 599,
+      "description": "Tailor your listening experience with bespoke dynamic drivers from the new Lenovo-Thinkpad Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+      "features": "Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.\n\nThe Lenovo-Thinkpad Wireless Earphones features customizable controls for volume, music, calls, and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.",
+      "includes": [
+        {
+          "quantity": 2,
+          "item": "xMacbook-Apple-A1286"
+        },
+        {
+          "quantity": 6,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 1,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+      
+      ],
+      "gallery": {
+        "first": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "xx99-mark-one-headphones",
+          "name": "XX99 Mark I",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+          }
+        },
+        {
+          "slug": "xx59-headphones",
+          "name": "XX59",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx59-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx59-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx59-headphones.jpg"
+          }
+        },
+        {
+          "slug": "Hp-Elitebook-speaker",
+          "name": "Hp-Elitebook Speaker",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-Hp-Elitebook-speaker.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-Hp-Elitebook-speaker.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-Hp-Elitebook-speaker.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "MACBOOK APPLE AIR",
+      "name": "MACBOOK APPLE AIR",
+      "image": {
+        "mobile": "/resources/assets/macbook-apple-air/mobile/image-macbook-apple-air.jpg",
+        "tablet": "/resources/assets/macbook-apple-air/tablet/image-macbook-apple-air.jpg",
+        "desktop": "/resources/assets/macbook-apple-air/desktop/image-macbook-apple-air.jpg"
+      },
+      "category": "mac",
+      "categoryImage": {
+        "mobile": "/resources/assets/macbook-apple-air/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/macbook-apple-air/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/macbook-apple-air/desktop/image-category-page-preview.jpg"
+      },
+      "new": true,
+      "price": 599,
+      "description": "Tailor your listening experience with bespoke dynamic drivers from the new Lenovo-Thinkpad Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+      "features": "Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.\n\nThe Lenovo-Thinkpad Wireless Earphones features customizable controls for volume, music, calls, and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.",
       "includes": [
         {
           "quantity": 2,
@@ -42,19 +382,19 @@
       ],
       "gallery": {
         "first": {
-          "mobile": "/resources/assets/product-yx1-earphones/mobile/image-gallery-1.jpg",
-          "tablet": "/resources/assets/product-yx1-earphones/tablet/image-gallery-1.jpg",
-          "desktop": "/resources/assets/product-yx1-earphones/desktop/image-gallery-1.jpg"
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-1.jpg"
         },
         "second": {
-          "mobile": "/resources/assets/product-yx1-earphones/mobile/image-gallery-2.jpg",
-          "tablet": "/resources/assets/product-yx1-earphones/tablet/image-gallery-2.jpg",
-          "desktop": "/resources/assets/product-yx1-earphones/desktop/image-gallery-2.jpg"
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-2.jpg"
         },
         "third": {
-          "mobile": "/resources/assets/product-yx1-earphones/mobile/image-gallery-3.jpg",
-          "tablet": "/resources/assets/product-yx1-earphones/tablet/image-gallery-3.jpg",
-          "desktop": "/resources/assets/product-yx1-earphones/desktop/image-gallery-3.jpg"
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-3.jpg"
         }
       },
       "others": [
@@ -77,387 +417,43 @@
           }
         },
         {
-          "slug": "zx9-speaker",
-          "name": "ZX9 Speaker",
+          "slug": "Hp-Elitebook-speaker",
+          "name": "Hp-Elitebook Speaker",
           "image": {
-            "mobile": "/resources/assets/shared/mobile/image-zx9-speaker.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-zx9-speaker.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-zx9-speaker.jpg"
-          }
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "slug": "xx59-headphones",
-      "name": "XX59 Headphones",
-      "image": {
-        "mobile": "/resources/assets/product-xx59-headphones/mobile/image-product.jpg",
-        "tablet": "/resources/assets/product-xx59-headphones/tablet/image-product.jpg",
-        "desktop": "/resources/assets/product-xx59-headphones/desktop/image-product.jpg"
-      },
-      "category": "headphones",
-      "categoryImage": {
-        "mobile": "/resources/assets/product-xx59-headphones/mobile/image-category-page-preview.jpg",
-        "tablet": "/resources/assets/product-xx59-headphones/tablet/image-category-page-preview.jpg",
-        "desktop": "/resources/assets/product-xx59-headphones/desktop/image-category-page-preview.jpg"
-      },
-      "new": false,
-      "price": 899,
-      "description": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
-      "features": "These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.\n\nMore than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C.",
-      "includes": [
-        {
-          "quantity": 1,
-          "item": "Headphone unit"
-        },
-        {
-          "quantity": 2,
-          "item": "Replacement earcups"
-        },
-        {
-          "quantity": 1,
-          "item": "User manual"
-        },
-        {
-          "quantity": 1,
-          "item": "3.5mm 5m audio cable"
-        }
-      ],
-      "gallery": {
-        "first": {
-          "mobile": "/resources/assets/product-xx59-headphones/mobile/image-gallery-1.jpg",
-          "tablet": "/resources/assets/product-xx59-headphones/tablet/image-gallery-1.jpg",
-          "desktop": "/resources/assets/product-xx59-headphones/desktop/image-gallery-1.jpg"
-        },
-        "second": {
-          "mobile": "/resources/assets/product-xx59-headphones/mobile/image-gallery-2.jpg",
-          "tablet": "/resources/assets/product-xx59-headphones/tablet/image-gallery-2.jpg",
-          "desktop": "/resources/assets/product-xx59-headphones/desktop/image-gallery-2.jpg"
-        },
-        "third": {
-          "mobile": "/resources/assets/product-xx59-headphones/mobile/image-gallery-3.jpg",
-          "tablet": "/resources/assets/product-xx59-headphones/tablet/image-gallery-3.jpg",
-          "desktop": "/resources/assets/product-xx59-headphones/desktop/image-gallery-3.jpg"
-        }
-      },
-      "others": [
-        {
-          "slug": "xx99-mark-two-headphones",
-          "name": "XX99 Mark II",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
-          }
-        },
-        {
-          "slug": "xx99-mark-one-headphones",
-          "name": "XX99 Mark I",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-          }
-        },
-        {
-          "slug": "zx9-speaker",
-          "name": "ZX9 Speaker",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-zx9-speaker.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-zx9-speaker.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-zx9-speaker.jpg"
-          }
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "slug": "xx99-mark-one-headphones",
-      "name": "XX99 Mark I Headphones",
-      "image": {
-        "mobile": "/resources/assets/product-xx99-mark-one-headphones/mobile/image-product.jpg",
-        "tablet": "/resources/assets/product-xx99-mark-one-headphones/tablet/image-product.jpg",
-        "desktop": "/resources/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg"
-      },
-      "category": "headphones",
-      "categoryImage": {
-        "mobile": "/resources/assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg",
-        "tablet": "/resources/assets/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
-        "desktop": "/resources/assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg"
-      },
-      "new": false,
-      "price": 1750,
-      "description": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
-      "features": "As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of audio expertise, redefining the critical listening experience. This pair of closed-back headphones are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz.\n\nFrom the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is includes with a balanced gold connector.",
-      "includes": [
-        {
-          "quantity": 1,
-          "item": "Headphone unit"
-        },
-        {
-          "quantity": 2,
-          "item": "Replacement earcups"
-        },
-        {
-          "quantity": 1,
-          "item": "User manual"
-        },
-        {
-          "quantity": 1,
-          "item": "3.5mm 5m audio cable"
-        }
-      ],
-      "gallery": {
-        "first": {
-          "mobile": "/resources/assets/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg",
-          "tablet": "/resources/assets/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg",
-          "desktop": "/resources/assets/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg"
-        },
-        "second": {
-          "mobile": "/resources/assets/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg",
-          "tablet": "/resources/assets/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg",
-          "desktop": "/resources/assets/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg"
-        },
-        "third": {
-          "mobile": "/resources/assets/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg",
-          "tablet": "/resources/assets/product-xx99-mark-one-headphones/tablet/image-gallery-3.jpg",
-          "desktop": "/resources/assets/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg"
-        }
-      },
-      "others": [
-        {
-          "slug": "xx99-mark-two-headphones",
-          "name": "XX99 Mark II",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
-          }
-        },
-        {
-          "slug": "xx59-headphones",
-          "name": "XX59",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-xx59-headphones.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-xx59-headphones.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-xx59-headphones.jpg"
-          }
-        },
-        {
-          "slug": "zx9-speaker",
-          "name": "ZX9 Speaker",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-zx9-speaker.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-zx9-speaker.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-zx9-speaker.jpg"
-          }
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "slug": "xx99-mark-two-headphones",
-      "name": "XX99 Mark II Headphones",
-      "image": {
-        "tablet": "/resources/assets/product-xx99-mark-two-headphones/tablet/image-product.jpg",
-        "mobile": "/resources/assets/product-xx99-mark-two-headphones/mobile/image-product.jpg",
-        "desktop": "/resources/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg"
-      },
-      "category": "headphones",
-      "categoryImage": {
-        "mobile": "/resources/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg",
-        "tablet": "/resources/assets/product-xx99-mark-two-headphones/tablet/image-category-page-preview.jpg",
-        "desktop": "/resources/assets/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg"
-      },
-      "new": true,
-      "price": 2999,
-      "description": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
-      "features": "Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.\n\nThe advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic.",
-      "includes": [
-        {
-          "quantity": 1,
-          "item": "Headphone unit"
-        },
-        {
-          "quantity": 2,
-          "item": "Replacement earcups"
-        },
-        {
-          "quantity": 1,
-          "item": "User manual"
-        },
-        {
-          "quantity": 1,
-          "item": "3.5mm 5m audio cable"
-        },
-        {
-          "quantity": 1,
-          "item": "Travel bag"
-        }
-      ],
-      "gallery": {
-        "first": {
-          "tablet": "/resources/assets/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg",
-          "mobile": "/resources/assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg",
-          "desktop": "/resources/assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg"
-        },
-        "second": {
-          "mobile": "/resources/assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg",
-          "tablet": "/resources/assets/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg",
-          "desktop": "/resources/assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg"
-        },
-        "third": {
-          "mobile": "/resources/assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg",
-          "tablet": "/resources/assets/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg",
-          "desktop": "/resources/assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg"
-        }
-      },
-      "others": [
-        {
-          "slug": "xx99-mark-one-headphones",
-          "name": "XX99 Mark I",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-          }
-        },
-        {
-          "slug": "xx59-headphones",
-          "name": "XX59",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-xx59-headphones.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-xx59-headphones.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-xx59-headphones.jpg"
-          }
-        },
-        {
-          "slug": "zx9-speaker",
-          "name": "ZX9 Speaker",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-zx9-speaker.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-zx9-speaker.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-zx9-speaker.jpg"
-          }
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "slug": "zx7-speaker",
-      "name": "ZX7 Speaker",
-      "image": {
-        "mobile": "/resources/assets/product-zx7-speaker/mobile/image-product.jpg",
-        "tablet": "/resources/assets/product-zx7-speaker/tablet/image-product.jpg",
-        "desktop": "/resources/assets/product-zx7-speaker/desktop/image-product.jpg"
-      },
-      "category": "speakers",
-      "categoryImage": {
-        "mobile": "/resources/assets/product-zx7-speaker/mobile/image-category-page-preview.jpg",
-        "tablet": "/resources/assets/product-zx7-speaker/tablet/image-category-page-preview.jpg",
-        "desktop": "/resources/assets/product-zx7-speaker/desktop/image-category-page-preview.jpg"
-      },
-      "new": false,
-      "price": 3500,
-      "description": "Stream high quality sound wirelessly with minimal to no loss. The ZX7 speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.",
-      "features": "Reap the advantages of a flat diaphragm tweeter cone. This provides a fast response rate and excellent high frequencies that lower tiered bookshelf speakers cannot provide. The woofers are made from aluminum that produces a unique and clear sound. XLR inputs allow you to connect to a mixer for more advanced usage.\n\nThe ZX7 speaker is the perfect blend of stylish design and high performance. It houses an encased MDF wooden enclosure which minimises acoustic resonance. Dual connectivity allows pairing through bluetooth or traditional optical and RCA input. Switch input sources and control volume at your finger tips with the included wireless remote. This versatile speaker is equipped to deliver an authentic listening experience.",
-      "includes": [
-        {
-          "quantity": 2,
-          "item": "Speaker unit"
-        },
-        {
-          "quantity": 2,
-          "item": "Speaker cloth panel"
-        },
-        {
-          "quantity": 1,
-          "item": "User manual"
-        },
-        {
-          "quantity": 1,
-          "item": "3.5mm 7.5m audio cable"
-        },
-        {
-          "quantity": 1,
-          "item": "7.5m optical cable"
-        }
-      ],
-      "gallery": {
-        "first": {
-          "mobile": "/resources/assets/product-zx7-speaker/mobile/image-gallery-1.jpg",
-          "tablet": "/resources/assets/product-zx7-speaker/tablet/image-gallery-1.jpg",
-          "desktop": "/resources/assets/product-zx7-speaker/desktop/image-gallery-1.jpg"
-        },
-        "second": {
-          "mobile": "/resources/assets/product-zx7-speaker/mobile/image-gallery-2.jpg",
-          "tablet": "/resources/assets/product-zx7-speaker/tablet/image-gallery-2.jpg",
-          "desktop": "/resources/assets/product-zx7-speaker/desktop/image-gallery-2.jpg"
-        },
-        "third": {
-          "mobile": "/resources/assets/product-zx7-speaker/mobile/image-gallery-3.jpg",
-          "tablet": "/resources/assets/product-zx7-speaker/tablet/image-gallery-3.jpg",
-          "desktop": "/resources/assets/product-zx7-speaker/desktop/image-gallery-3.jpg"
-        }
-      },
-      "others": [
-        {
-          "slug": "zx9-speaker",
-          "name": "ZX9 Speaker",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-zx9-speaker.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-zx9-speaker.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-zx9-speaker.jpg"
-          }
-        },
-        {
-          "slug": "xx99-mark-one-headphones",
-          "name": "XX99 Mark I",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
-          }
-        },
-        {
-          "slug": "xx59-headphones",
-          "name": "XX59",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-xx59-headphones.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-xx59-headphones.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-xx59-headphones.jpg"
+            "mobile": "/resources/assets/shared/mobile/image-Hp-Elitebook-speaker.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-Hp-Elitebook-speaker.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-Hp-Elitebook-speaker.jpg"
           }
         }
       ]
     },
     {
       "id": 6,
-      "slug": "zx9-speaker",
-      "name": "ZX9 Speaker",
+      "slug": "MACBOOK APPLE PRO",
+      "name": "MACBOOK APPLE PRO",
       "image": {
-        "mobile": "/resources/assets/product-zx9-speaker/mobile/image-product.jpg",
-        "tablet": "/resources/assets/product-zx9-speaker/tablet/image-product.jpg",
-        "desktop": "/resources/assets/product-zx9-speaker/desktop/image-product.jpg"
+        "mobile": "/resources/assets/macbook-apple-pro/mobile/image-macbook-apple-pro.jpg",
+        "tablet": "/resources/assets/macbook-apple-pro/tablet/image-macbook-apple-pro.jpg",
+        "desktop": "/resources/assets/macbook-apple-pro/desktop/image-macbook-apple-pro.jpg"
       },
-      "category": "speakers",
+      "category": "mac",
       "categoryImage": {
-        "mobile": "/resources/assets/product-zx9-speaker/mobile/image-category-page-preview.jpg",
-        "tablet": "/resources/assets/product-zx9-speaker/tablet/image-category-page-preview.jpg",
-        "desktop": "/resources/assets/product-zx9-speaker/desktop/image-category-page-preview.jpg"
+        "mobile": "/resources/assets/macbook-apple-pro/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/macbook-apple-pro/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/macbook-apple-pro/desktop/image-category-page-preview.jpg"
       },
       "new": true,
-      "price": 4500,
-      "description": "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
-      "features": "Connect via Bluetooth or nearly any wired source. This speaker features optical, digital coaxial, USB Type-B, stereo RCA, and stereo XLR inputs, allowing you to have up to five wired source devices connected for easy switching. Improved bluetooth technology offers near lossless audio quality at up to 328ft (100m).\n\nDiscover clear, more natural sounding highs than the competition with ZX9’s signature planar diaphragm tweeter. Equally important is its powerful room-shaking bass courtesy of a 6.5” aluminum alloy bass unit. You’ll be able to enjoy equal sound quality whether in a large room or small den. Furthermore, you will experience new sensations from old songs since it can respond to even the subtle waveforms.",
+      "price": 599,
+      "description": "Tailor your listening experience with bespoke dynamic drivers from the new Lenovo-Thinkpad Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+      "features": "Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.\n\nThe Lenovo-Thinkpad Wireless Earphones features customizable controls for volume, music, calls, and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.",
       "includes": [
         {
           "quantity": 2,
-          "item": "Speaker unit"
+          "item": "Earphone unit"
         },
         {
-          "quantity": 2,
-          "item": "Speaker cloth panel"
+          "quantity": 6,
+          "item": "Multi-size earplugs"
         },
         {
           "quantity": 1,
@@ -465,40 +461,31 @@
         },
         {
           "quantity": 1,
-          "item": "3.5mm 10m audio cable"
+          "item": "USB-C charging cable"
         },
         {
           "quantity": 1,
-          "item": "10m optical cable"
+          "item": "Travel pouch"
         }
       ],
       "gallery": {
         "first": {
-          "mobile": "/resources/assets/product-zx9-speaker/mobile/image-gallery-1.jpg",
-          "tablet": "/resources/assets/product-zx9-speaker/tablet/image-gallery-1.jpg",
-          "desktop": "/resources/assets/product-zx9-speaker/desktop/image-gallery-1.jpg"
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-1.jpg"
         },
         "second": {
-          "mobile": "/resources/assets/product-zx9-speaker/mobile/image-gallery-2.jpg",
-          "tablet": "/resources/assets/product-zx9-speaker/tablet/image-gallery-2.jpg",
-          "desktop": "/resources/assets/product-zx9-speaker/desktop/image-gallery-2.jpg"
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-2.jpg"
         },
         "third": {
-          "mobile": "/resources/assets/product-zx9-speaker/mobile/image-gallery-3.jpg",
-          "tablet": "/resources/assets/product-zx9-speaker/tablet/image-gallery-3.jpg",
-          "desktop": "/resources/assets/product-zx9-speaker/desktop/image-gallery-3.jpg"
+          "mobile": "/resources/assets/lenovo-thinkpad/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/lenovo-thinkpad/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/lenovo-thinkpad/desktop/image-gallery-3.jpg"
         }
       },
       "others": [
-        {
-          "slug": "zx7-speaker",
-          "name": "ZX7 Speaker",
-          "image": {
-            "mobile": "/resources/assets/shared/mobile/image-zx7-speaker.jpg",
-            "tablet": "/resources/assets/shared/tablet/image-zx7-speaker.jpg",
-            "desktop": "/resources/assets/shared/desktop/image-zx7-speaker.jpg"
-          }
-        },
         {
           "slug": "xx99-mark-one-headphones",
           "name": "XX99 Mark I",
@@ -515,6 +502,454 @@
             "mobile": "/resources/assets/shared/mobile/image-xx59-headphones.jpg",
             "tablet": "/resources/assets/shared/tablet/image-xx59-headphones.jpg",
             "desktop": "/resources/assets/shared/desktop/image-xx59-headphones.jpg"
+          }
+        },
+        {
+          "slug": "Hp-Elitebook-speaker",
+          "name": "Hp-Elitebook Speaker",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-Hp-Elitebook-speaker.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-Hp-Elitebook-speaker.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-Hp-Elitebook-speaker.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "hp pavilion",
+      "name": "hp pavilion",
+      "image": {
+        "mobile": "/resources/assets/hp-pavilion/mobile/image-hp-pavilion.jpg",
+        "tablet": "/resources/assets/hp-pavilion/tablet/image-hp-pavilion.jpg",
+        "desktop": "/resources/assets/hp-pavilion/desktop/image-hp-pavilion.jpg"
+      },
+      "category": "hp",
+      "categoryImage": {
+        "mobile": "/resources/assets/hp-pavilion/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/hp-pavilion/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/hp-pavilion/desktop/image-category-page-preview.jpg"
+      },
+      "new": false,
+      "price": 899,
+      "description": "Experience versatility and performance wherever you go with the HP Pavilion laptop. Whether at home or on the move, this stylish and durable device allows you to customize your computing experience to suit your specific needs and tastes.",
+      "features": "The Dell Latitude features an Intel Core i3 or AMD Ryzen 5000 processor, 8 GB DDR4 RAM, 512 GB SSD storage, Windows 10 or Windows 11 Operating System, a 14-inch or 13.3-inch touchscreen display with micro-edge design, and Bang & Olufsen audio with an HP Wide Vision HD Camera.",
+      "includes": [
+        {
+          "quantity": 1,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 2,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+      
+      ],
+      "gallery": {
+        "first": {
+          "mobile": "/resources/assets/hp-pavilion/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/hp-pavilion/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/hp-pavilion/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/hp-pavilion/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/hp-pavilion/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/hp-pavilion/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/hp-pavilion/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/hp-pavilion/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/hp-pavilion/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "xx99-mark-two-headphones",
+          "name": "XX99 Mark II",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-two-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-two-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-two-headphones.jpg"
+          }
+        },
+        {
+          "slug": "xx99-mark-one-headphones",
+          "name": "XX99 Mark I",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-xx99-mark-one-headphones.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-xx99-mark-one-headphones.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-xx99-mark-one-headphones.jpg"
+          }
+        },
+        {
+          "slug": "Hp-Elitebook-speaker",
+          "name": "Hp-Elitebook Speaker",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-Hp-Elitebook-speaker.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-Hp-Elitebook-speaker.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-Hp-Elitebook-speaker.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "HP PROBOOK",
+      "name": "HP PROBOOK",
+      "image": {
+        "mobile": "/resources/assets/hp-probook/mobile/image-hp-probook.jpg",
+        "tablet": "/resources/assets/hp-probook/tablet/image-hp-probook.jpg",
+        "desktop": "/resources/assets/hp-probook/desktop/image-hp-probook.jpg"
+      },
+      "category": "hp",
+      "categoryImage": {
+        "mobile": "/resources/assets/hp-probook/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/hp-probook/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/hp-probook/desktop/image-category-page-preview.jpg"
+      },
+      "new": false,
+      "price": 1750,
+      "description": "As the epitome of professional laptops, the HP ProBook sets the gold standard for reliability, performance, and versatility. With its robust design and advanced features, the HP ProBook caters to professionals, students, and anyone seeking a dependable computing experience both in the office and on the go." ,
+      "features": "Processor: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz   2.71 GHz\n\nRAM: 8.00 GB \n\n",
+
+      "includes": [
+        {
+          "quantity": 1,
+          "item": "Hp Probook Laptop"
+        },
+        {
+          "quantity": 2,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 1,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+      ],
+      "gallery": {
+        "first": {
+          "mobile": "/resources/assets/hp-probook/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/hp-probook/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/hp-probook/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/hp-probook/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/hp-probook/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/hp-probook/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/hp-probook/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/hp-probook/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/hp-probook/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "HP-PROBOOK S-SERIES",
+          "name": "HP-PROBOOK S-SERIES",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-s-series.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-s-series.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-s-series.jpg"
+          }
+        },
+        {
+          "slug": "xx59-headphones",
+          "name": "HP-PROBOOK B-SERIES",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-b-series.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-b-series.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-b-series.jpg"
+          }
+        },
+        {
+          "slug": "HP-PROBOOK 440",
+          "name": "HP-PROBOOK 440",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-440.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-440.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-440.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "HP ELITEBOOK",
+      "name": "HP ELITEBOOK",
+      "image": {
+        "tablet": "/resources/assets/hp-elitebook/tablet/image-hp-elitebook.jpg",
+        "mobile": "/resources/assets/hp-elitebook/mobile/image-hp-elitebook.jpg",
+        "desktop": "/resources/assets/hp-elitebook/desktop/image-hp-elitebook.jpg"
+      },
+      "category": "hp",
+      "categoryImage": {
+        "mobile": "/resources/assets/hp-elitebook/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/hp-elitebook/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/hp-elitebook/desktop/image-category-page-preview.jpg"
+      },
+      "new": true,
+      "price": 2999,
+      "description": "The HP EliteBook is the epitome of professional-grade computing excellence. It transforms your work experience with unparalleled performance, security, and reliability, setting a new standard for business laptops.",
+      "features": [
+        "Magnesium alloy chassis, anodized aluminum lid and palm rests",
+        "Spill-resistant keyboards",
+        "Active hard-drive protection",
+        "Dual pointing devices",
+        "Core i3 processor",
+        "4GB of RAM",
+        "256GB of SSD storage",
+        "Intel Integrated HD Graphics 520",
+        "Choice of 8th Generation Intel® Core™ i5, i7 Processors",
+        "Windows 10 or FreeDOS",
+        "Thin and light x360 chassis",
+        "14-inch diagonal 16:10 display",
+        "HP Context Aware, Auto Lock, and Awake",
+        "Support for all HP docking options including HP’s traditional Ultraslim mechanical dock and all-new Thunderbolt dock"
+    ],
+       
+    
+      "includes": [
+        {
+          "quantity": 1,
+          "item": "Hp Elitebook Laptop"
+        },
+        {
+          "quantity": 1,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 1,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+       
+      ],
+      "gallery": {
+        "first": {
+          "tablet": "/resources/assets/hp-elitebook/tablet/image-gallery-1.jpg",
+          "mobile": "/resources/assets/hp-elitebook/mobile/image-gallery-1.jpg",
+          "desktop": "/resources/assets/hp-elitebook/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/hp-elitebook/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/hp-elitebook/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/hp-elitebook/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/hp-elitebook/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/hp-elitebook/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/hp-elitebook/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "xx99-mark-one-headphones",
+          "name": "ELITEBOOK revolve G2",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-revolve-G2.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-revolve-G2.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-revolve-G2.jpg"
+          }
+        },
+        {
+          "slug": "ELITEBOOK 700 series",
+          "name": "ELITEBOOK 700 series",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-700-series.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-700-series.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-700-series.jpg"
+          }
+        },
+        {
+          "slug": "Hp-Elitebook-speaker",
+          "name": "ELITEBOOK 840 G3",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-840-G3.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-840-G3.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-840-G3.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "DELL INSPIRON",
+      "name": "DELL INSPIRON",
+      "image": {
+        "mobile": "/resources/assets/dell-inspiron/mobile/image-dell-inspiron.jpg",
+        "tablet": "/resources/assets/dell-inspiron/tablet/image-dell-inspiron.jpg",
+        "desktop": "/resources/assets/dell-inspiron/desktop/image-dell-inspiron.jpg"
+      },
+      "category": "dell",
+      "categoryImage": {
+        "mobile": "/resources/assets/dell-inspiron/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/dell-inspiron/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/dell-inspiron/desktop/image-category-page-preview.jpg"
+      },
+      "new": false,
+      "price": 3500,
+      "description": "The Dell Inspiron series presents a versatile range of laptops designed to cater to various computing needs. With sleek designs and robust performance, the Dell Inspiron laptops offer reliable functionality for work, entertainment, and everything in between.",
+      "features": "Inexpensive with plenty of configuration options, comfortable keyboard with dedicated number keys, includes HDMI and Ethernet ports, and boasts good battery life (for Inspiron 15 3000)."      ,
+
+      "includes": [
+        {
+          "quantity": 1,
+          "item": "Dell inspiron Laptop"
+        },
+        {
+          "quantity": 1,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 1,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+
+      ],
+      "gallery": {
+        "first": {
+          "mobile": "/resources/assets/dell-inspiron/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/dell-inspiron/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/dell-inspiron/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/dell-inspiron/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/dell-inspiron/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/dell-inspiron/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/dell-inspiron/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/dell-inspiron/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/dell-inspiron/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "Dell Inspiron 17R",
+          "name": "Dell Inspiron 17R",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-inspiron-17R.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-inspiron-17R.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-inspiron-17R.jpg"
+          }
+        },
+        {
+          "slug": "Dell Inspiron 13",
+          "name": "Dell Inspiron 13",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-inspiron-13.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-inspiron-13.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-inspiron-13.jpg"
+          }
+        },
+        {
+          "slug": "Dell Inspiron 15",
+          "name": "Dell Inspiron 15",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-inspiron-15.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-inspiron-15.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-inspiron-15.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "DELL LATITUDE",
+      "name": "DELL LATITUDE",
+      "image": {
+        "mobile": "/resources/assets/dell-latitude/mobile/image-dell-latitude.jpg",
+        "tablet": "/resources/assets/dell-latitude/tablet/image-dell-latitude.jpg",
+        "desktop": "/resources/assets/dell-latitude/desktop/image-dell-latitude.jpg"
+      },
+      "category": "dell",
+      "categoryImage": {
+        "mobile": "/resources/assets/dell-latitude/mobile/image-category-page-preview.jpg",
+        "tablet": "/resources/assets/dell-latitude/tablet/image-category-page-preview.jpg",
+        "desktop": "/resources/assets/dell-latitude/desktop/image-category-page-preview.jpg"
+      },
+      "new": true,
+      "price": 4500,
+      "description": "Experience enhanced productivity and security with the Dell Latitude laptop series. Built for professionals on the go, it offers robust performance, exceptional reliability, and advanced security features to meet the demands of modern business environments.",
+      "features": "Experience versatile connectivity options with the Dell Latitude laptop series, featuring Bluetooth and a range of wired inputs including optical, digital coaxial, USB Type-B, stereo RCA, and stereo XLR, allowing seamless switching between up to five devices. Enjoy superior audio quality with clear highs and powerful bass thanks to the signature planar diaphragm tweeter and 6.5” aluminum alloy bass unit, providing an immersive listening experience whether in a large room or small den.",
+      "includes": [
+        {
+          "quantity": 1,
+          "item": "Dell Latitude Laptop"
+        },
+        {
+          "quantity": 1,
+          "item": "Power adapter"
+        },
+        {
+          "quantity": 1,
+          "item": "User manual"
+        },
+        {
+          "quantity": 1,
+          "item": "Warranty card"
+        }
+       
+      ],
+      "gallery": {
+        "first": {
+          "mobile": "/resources/assets/dell-latitude/mobile/image-gallery-1.jpg",
+          "tablet": "/resources/assets/dell-latitude/tablet/image-gallery-1.jpg",
+          "desktop": "/resources/assets/dell-latitude/desktop/image-gallery-1.jpg"
+        },
+        "second": {
+          "mobile": "/resources/assets/dell-latitude/mobile/image-gallery-2.jpg",
+          "tablet": "/resources/assets/dell-latitude/tablet/image-gallery-2.jpg",
+          "desktop": "/resources/assets/dell-latitude/desktop/image-gallery-2.jpg"
+        },
+        "third": {
+          "mobile": "/resources/assets/dell-latitude/mobile/image-gallery-3.jpg",
+          "tablet": "/resources/assets/dell-latitude/tablet/image-gallery-3.jpg",
+          "desktop": "/resources/assets/dell-latitude/desktop/image-gallery-3.jpg"
+        }
+      },
+      "others": [
+        {
+          "slug": "Dell Latitude 3420",
+          "name": "Dell Latitude 3420",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-latitude-3420.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-latitude-3420.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-latitude-3420.jpg"
+          }
+        },
+        {
+          "slug": "Dell Latitude 3400",
+          "name": "Dell Latitude 3400",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-latitude-3400.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-latitude-3400.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-latitude-3400.jpg"
+          }
+        },
+        {
+          "slug": "Dell Latitude E5550",
+          "name": "Dell Latitude E5550",
+          "image": {
+            "mobile": "/resources/assets/shared/mobile/image-latitude-E5550.jpg",
+            "tablet": "/resources/assets/shared/tablet/image-latitude-E5550.jpg",
+            "desktop": "/resources/assets/shared/desktop/image-latitude-E5550.jpg"
           }
         }
       ]

@@ -107,18 +107,18 @@
         accent-color: #D87D4A;
     }
 
-    #eMoney + label {
+    #payNow + label {
         display: inline-block;
         margin-left: 20px;
     }
 
-    #cod + label {
+    #payOnDeivery + label {
         display: inline-block;
         margin-left: 20px;
     }
 
-    #eMoney,
-    #cod {
+    #payNow,
+    #patOnDelivery {
         height: 100%;
         margin-top: 10px;
         margin-left: 20px;
@@ -371,8 +371,8 @@
         margin-top: 11px;
     }
 
-    .eMoney,
-    .cod {
+    .payNow,
+    .payOnDelivery {
         display: flex;
         height: 50px;
         align-items: center;
@@ -385,14 +385,14 @@
         accent-color: #D87D4A;
     }
 
-    #eMoney,
-    #cod {
+    #payNow,
+    #payOnDelivery {
         height: 100%;
         margin-top: 30px;
         margin-left: 20px;
     }
 
-    #cod + label {
+    #payOnDelivery + label {
         display: inline-block;
         margin-left: 20px;
     }
@@ -666,8 +666,8 @@
         grid-column: 1;
     }
 
-    #eMoney + label,
-    #cod + label {
+    #payNow + label,
+    #payOnDelivery + label {
         display: inline-block;
         margin-left: 20px;
         margin-top: 11px;
@@ -677,8 +677,8 @@
         accent-color: #D87D4A;
     }
 
-    .eMoney,
-    .cod {
+    .payNow,
+    .payOnDelivery {
         display: flex;
         height: 50px;
         align-items: center;
@@ -687,14 +687,14 @@
         border: 1px solid #CFCFCF;
     }
 
-    #eMoney,
-    #cod {
+    #payNow,
+    #payOnDelivery {
         height: 100%;
         margin-top: 30px;
         margin-left: 20px;
     }
 
-    #cod + label {
+    #payOnDelivery + label {
         display: inline-block;
         margin-left: 20px;
     }
